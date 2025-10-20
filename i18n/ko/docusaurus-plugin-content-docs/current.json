@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "현재",
+    "description": "The label for the current version in the version dropdown"
+  },
+  "sidebar.docs.category.📖 Getting Started": {
+    "message": "📖 시작하기",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.🧠 Fundamentals": {
+    "message": "🧠 기초",
+    "description": "The label for category Fundamentals in sidebar docs"
+  },
+  "sidebar.docs.category.🤖 Understanding AI": {
+    "message": "🤖 AI 이해하기",
+    "description": "The label for category Understanding AI in sidebar docs"
+  },
+  "sidebar.docs.category.✍️ Prompting": {
+    "message": "✍️ 프롬프팅",
+    "description": "The label for category Prompting in sidebar docs"
+  },
+  "sidebar.docs.category.🤖 Models": {
+    "message": "🤖 모델",
+    "description": "The label for category Models in sidebar docs"
+  },
+  "sidebar.docs.category.⚙️ Features": {
+    "message": "⚙️ 기능",
+    "description": "The label for category Features in sidebar docs"
+  },
+  "sidebar.docs.category.🎓 Tutorials": {
+    "message": "🎓 튜토리얼",
+    "description": "The label for category Tutorials in sidebar docs"
+  },
+  "sidebar.docs.category.🚀 Advanced": {
+    "message": "🚀 고급",
+    "description": "The label for category Advanced in sidebar docs"
+  },
+  "sidebar.docs.category.📚 Reference": {
+    "message": "📚 참조",
+    "description": "The label for category Reference in sidebar docs"
+  },
+  "sidebar.docs.category.❓ FAQ": {
+    "message": "❓ FAQ",
+    "description": "The label for category FAQ in sidebar docs"
+  }
+}

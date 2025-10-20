@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for the current version in the version dropdown"
+  },
+  "sidebar.docs.category.📖 Getting Started": {
+    "message": "📖 Getting Started",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.🧠 Fundamentals": {
+    "message": "🧠 Fundamentals",
+    "description": "The label for category Fundamentals in sidebar docs"
+  },
+  "sidebar.docs.category.🤖 Understanding AI": {
+    "message": "🤖 Understanding AI",
+    "description": "The label for category Understanding AI in sidebar docs"
+  },
+  "sidebar.docs.category.✍️ Prompting": {
+    "message": "✍️ Prompting",
+    "description": "The label for category Prompting in sidebar docs"
+  },
+  "sidebar.docs.category.🤖 Models": {
+    "message": "🤖 Models",
+    "description": "The label for category Models in sidebar docs"
+  },
+  "sidebar.docs.category.⚙️ Features": {
+    "message": "⚙️ Features",
+    "description": "The label for category Features in sidebar docs"
+  },
+  "sidebar.docs.category.🎓 Tutorials": {
+    "message": "🎓 Tutorials",
+    "description": "The label for category Tutorials in sidebar docs"
+  },
+  "sidebar.docs.category.🚀 Advanced": {
+    "message": "🚀 Advanced",
+    "description": "The label for category Advanced in sidebar docs"
+  },
+  "sidebar.docs.category.📚 Reference": {
+    "message": "📚 Reference",
+    "description": "The label for category Reference in sidebar docs"
+  },
+  "sidebar.docs.category.❓ FAQ": {
+    "message": "❓ FAQ",
+    "description": "The label for category FAQ in sidebar docs"
+  }
+}

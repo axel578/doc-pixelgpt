@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Pixel GPT Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Quick Start": {
+    "message": "Quick Start",
+    "description": "Navbar item with label Quick Start"
+  },
+  "item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Prompting": {
+    "message": "Prompting",
+    "description": "Navbar item with label Prompting"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.Main Site": {
+    "message": "Main Site",
+    "description": "Navbar item with label Main Site"
+  }
+}

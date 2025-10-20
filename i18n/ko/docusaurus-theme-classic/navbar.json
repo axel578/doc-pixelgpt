@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Pixel GPT Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Quick Start": {
+    "message": "빠른 시작",
+    "description": "Navbar item with label Quick Start"
+  },
+  "item.label.Getting Started": {
+    "message": "시작하기",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Prompting": {
+    "message": "프롬프팅",
+    "description": "Navbar item with label Prompting"
+  },
+  "item.label.Tutorials": {
+    "message": "튜토리얼",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.Main Site": {
+    "message": "메인 사이트",
+    "description": "Navbar item with label Main Site"
+  }
+}
