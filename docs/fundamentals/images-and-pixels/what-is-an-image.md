@@ -59,6 +59,7 @@ Row 3: ▓▓▓▓▓▓▓▓
 ### 16×16 Diamond Sword
 
 [SCREENSHOT: Diamond sword texture]
+![diamond_sword_nine](/img/diamond_sword_nine.png)
 
 **Zoomed in:**
 

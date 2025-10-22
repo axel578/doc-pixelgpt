@@ -19,7 +19,7 @@ Get started with Pixel GPT immediately.
         </div>
         <div className="card__body">
           <ul>
-            <li><a href="5-minute-guide">5-Minute Overview</a></li>
+            <li><a href="5-minute-guide">5 Minute Guide</a></li>
             <li><a href="generate-first-item">Generate an Item</a></li>
             <li><a href="generate-first-gui">Generate a GUI</a></li>
           </ul>
@@ -47,11 +47,11 @@ Get started with Pixel GPT immediately.
 
 | If you want to... | Start here | Time |
 |-------------------|------------|------|
-| Understand basics | [5-Minute Guide](5-minute-guide) | 5 min |
+| Understand basics | [5 Minute Guide](cinq-minute-guide) | 5 min |
 | Create first item | [Generate First Item](generate-first-item) | 3 min |
 | Create a GUI | [Generate First GUI](generate-first-gui) | 5 min |
 | Write better prompts | [Prompting Tips](essential-prompting-tips) | 3 min |
 
 :::tip New User?
-Start with the [5-Minute Guide](5-minute-guide) to understand the basics.
+Start with the [5 Minute Guide](cinq-minute-guide) to understand the basics.
 :::
