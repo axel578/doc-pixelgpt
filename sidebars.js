@@ -6,6 +6,19 @@ module.exports = {
       label: '⚡ Quick Start',
     },
     {
+      type: 'doc',
+      id: 'start/index',
+      label: '🧸 Start',
+    },
+    {
+      type: 'category',
+      label: '🦊 Getting Started',
+      items: [
+        'getting/index',
+        'getting/what_is_an_image'
+      ],
+    },
+    {
       type: 'category',
       label: '📖 Getting Started',
       items: [

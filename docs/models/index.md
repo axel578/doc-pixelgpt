@@ -25,7 +25,7 @@ An **AI model** is the engine that generates images from your prompts.
 ## 🎯 Model Organization
 
 ```mermaid
-graph TD
+graph LR
     A[All Models] --> B[Quality Tier]
     B --> C[Category]
     C --> D[Resolution]
