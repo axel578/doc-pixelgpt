@@ -14,8 +14,23 @@ module.exports = {
       type: 'category',
       label: '🦊 Getting Started',
       items: [
-        'getting/index',
-        'getting/what_is_an_image'
+        'getting/what_is_an_image',
+        {
+          type: 'category',
+          label: 'Prompting',
+          items: [
+            'getting/prompting/Prompting_is_key',
+            'getting/prompting/Prompt_troubleshooting'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Grid',
+          items: [
+            'getting/grid/grid_system',
+          ],
+        },
+        'getting/pricing',
       ],
     },
     {
