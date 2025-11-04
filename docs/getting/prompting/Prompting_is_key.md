@@ -95,7 +95,7 @@ Each word now describes a **real, renderable attribute** — color, texture, mat
 - 🧩 **GUI or Scene Models (128px+):**  
   Require structure — describe **layout, zones, and grid logic**.  
   Example:  
-  > `medieval shop gui, top: interior shelves, center: 4×4 item grid, bottom: 9-slot inventory, wooden frame`
+  > `medieval shop gui, top: interior shelves, center: 4x4 item grid, bottom: 9-slot inventory, wooden frame`
 
 - 🪞 **Advanced Models (Pro, Ultimate, Orion):**  
   Can interpret context — longer, **structured prompts** yield richer composition.  
@@ -137,7 +137,7 @@ That means prompts like `elytra`, `diamond armor`, or `netherite pickaxe` **will
 | Terraria Blade of Grass | `blade of grass` | `green glowing sword with leaves` |
 | Anime Character | `Naruto Uzumaki` | `orange ninja outfit with headband` |
 | Roblox Map | `roblox city` | `colorful blocky city low-poly style` |
-| Hypixel Reference | `like Hypixel skyblock menu` | `fantasy shop gui, 4×4 grid center, coins and icons` |
+| Hypixel Reference | `like Hypixel skyblock menu` | `fantasy shop gui, 4x4 grid center, coins and icons` |
 
 ---
 
@@ -507,8 +507,8 @@ The AI cannot infer layout. You must **define every section explicitly**.
 | Element | Position | Description |
 |----------|-----------|-------------|
 | **Shop Interior Background** | Top | Wooden shelves, hanging banners, warm lighting |
-| **Item Grid (4×4)** | Center | 16 item slots arranged symmetrically |
-| **Player Inventory (9×4)** | Bottom | Standard Minecraft layout (36 slots) |
+| **Item Grid (4x4)** | Center | 16 item slots arranged symmetrically |
+| **Player Inventory (9x4)** | Bottom | Standard Minecraft layout (36 slots) |
 | **Frame** | Outer border | Carved wood frame with coins and ropes |
 | **Decorations** | Around frame | Banners, lamps, gems, coins for atmosphere |
 
@@ -517,7 +517,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
 ### 🎯 Why This Works
 
 - ✅ Defines clear **zones** (top / center / bottom).  
-- ✅ Specifies **exact grid count** (4×4, 9×4).  
+- ✅ Specifies **exact grid count** (4x4, 9x4).  
 - ✅ Describes **materials** (wood, gold, cloth).  
 - ✅ Sets **atmosphere** (cozy medieval tone).  
 - ✅ Balanced visual logic — easy for AI to follow.
@@ -529,9 +529,9 @@ The AI cannot infer layout. You must **define every section explicitly**.
 > A **pixel art shop GUI**, cozy medieval fantasy style.  
 > At the **top**, display a **shop interior background**: wooden shelves, hanging banners, small glowing lamps, and a “SHOP” sign.  
 >  
-> In the **center**, show a **4×4 grid of item slots** (16 total), clearly outlined and centered.  
+> In the **center**, show a **4x4 grid of item slots** (16 total), clearly outlined and centered.  
 >  
-> At the **bottom**, display a **player inventory section** (9×4 = 36 slots).  
+> At the **bottom**, display a **player inventory section** (9x4 = 36 slots).  
 >  
 > Surround the interface with a **carved wooden frame** decorated with coins, ropes, and purple curtains.  
 >  
@@ -551,8 +551,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
     flexWrap: 'wrap',
     maxWidth: '1200px',
     margin: '2rem auto',
-  }}
->
+  }}>
 
   <div
     style={{
@@ -568,8 +567,8 @@ The AI cannot infer layout. You must **define every section explicitly**.
       a detailed pixel art shop GUI, symmetrical and colorful, drawn in a cozy medieval fantasy style.
       at the top, display a warm shop interior background: wooden shelves, hanging banners, stacked crates, and small glowing lamps.
       a “SHOP” sign hangs above the counter, surrounded by gold coins and purple curtains.
-      in the center, show a 4×4 grid of item slots (16 total) arranged neatly in a square formation.
-      at the bottom, include the player inventory section with 9 columns × 4 rows = 36 slots.
+      in the center, show a 4x4 grid of item slots (16 total) arranged neatly in a square formation.
+      at the bottom, include the player inventory section with 9 columns x 4 rows = 36 slots.
       surround the interface with a carved wooden frame and small decorative coins and banners.
       use a black background for strong contrast and warm, soft lighting for atmosphere.
     </p>
@@ -619,7 +618,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
 | **Item Slot** | Top-center | Input for item to enchant |
 | **Lapis Slot** | Bottom-center | Slot for payment (lapis lazuli) |
 | **Enchant Buttons (x3)** | Right side | Runes + cost, vertical alignment |
-| **Inventory Grid** | Bottom | Player’s 9×4 layout (36 slots) |
+| **Inventory Grid** | Bottom | Player’s 9x4 layout (36 slots) |
 | **Frame** | Outer border | Silver ornate metal with runes |
 | **Background** | Whole image | Dark purple with magical particles |
 
@@ -633,7 +632,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
 > **Top-center:** one item slot for the tool or weapon.  
 > **Bottom-center:** lapis lazuli slot (small square).  
 > **Right side:** three vertical enchantment buttons, engraved with glowing runes and small level numbers (“??? - 3 levels”).  
-> **Bottom:** player inventory grid (9 columns × 4 rows = 36 slots).  
+> **Bottom:** player inventory grid (9 columns x 4 rows = 36 slots).  
 > **Background:** dark purple gradients, floating runes, soft glow.  
 > **Frame:** ornate silver metal with arcane engravings in each corner.  
 >  
@@ -661,7 +660,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
 | **Trade Slot Group 1–3** | Center-left | Two input slots → arrow → one output slot |
 | **Highlight Box** | Around trade row | Indicates selected trade |
 | **Emerald Counter** | Top-right | Icon + numeric counter |
-| **Player Inventory** | Bottom | Standard 9×4 slots |
+| **Player Inventory** | Bottom | Standard 9x4 slots |
 | **Frame & Background** | Whole interface | Wooden planks + oak borders |
 | **Decorations** | Corners | Potted plant (bottom-left), lantern (top-right) |
 
@@ -675,7 +674,7 @@ The AI cannot infer layout. You must **define every section explicitly**.
 > **Center-left:** three trade rows (each = 2 inputs → arrow → 1 output).  
 > **Highlight:** yellow glowing border on selected trade.  
 > **Top-right:** emerald counter icon and number.  
-> **Bottom:** player inventory 9×4 slots.  
+> **Bottom:** player inventory 9x4 slots.  
 >  
 > Add wooden frame, lantern, small potted plant, soft warm lighting, symmetrical layout.
 
@@ -700,11 +699,11 @@ A structured template for consistent results:
 > [top-center]: [element + purpose]
 > [top-right]: [element + purpose]
 
-> [center-left]: [element, grid X×Y]
+> [center-left]: [element, grid XxY]
 > [center]: [element, alignment, purpose]
 > [center-right]: [buttons, counters, etc.]
 
-> [bottom-full]: player inventory grid (9×4 = 36 slots)
+> [bottom-full]: player inventory grid (9x4 = 36 slots)
 
 > [background]: [texture / mood]
 > [frame]: [material + decoration]
@@ -726,8 +725,8 @@ A structured template for consistent results:
 >
 > **Grid & Inventory**
 >
-> - 4×4 grid = 16 slots  
-> - 9×4 = 36 slots (player inventory standard)  
+> - 4x4 grid = 16 slots  
+> - 9x4 = 36 slots (player inventory standard)  
 
 ---
 
@@ -735,10 +734,10 @@ A structured template for consistent results:
 
 | ❌ Bad Prompt | Why It Fails | ✅ Fixed Version |
 |---------------|---------------|----------------|
-| `gui` | No structure or type | “Shop GUI with top interior, 4×4 grid, and 9×4 inventory” |
+| `gui` | No structure or type | “Shop GUI with top interior, 4x4 grid, and 9x4 inventory” |
 | `shop interface` | Missing spatial info | Add “top: shelves / center: item grid / bottom: inventory” |
 | `inventory menu` | Too vague | Define grid counts and positions |
-| `menu with slots` | Missing layout details | Include “center 3×3 grid, bottom 9-slot row” |
+| `menu with slots` | Missing layout details | Include “center 3x3 grid, bottom 9-slot row” |
 | `like Hypixel` | Unclear reference | Describe it visually instead |
 
 ---

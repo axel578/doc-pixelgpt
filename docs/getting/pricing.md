@@ -17,10 +17,15 @@ All plans include **unlimited generations**, **private rendering**, and access t
 `diamond sword, cyan crystal blade, golden crossguard, bright reflections, polished finish`
 
 ### Ilustration
+
+#### Portrait 
 `a female elf with long silver hair and emerald eyes, wearing a green hood and light leather armor, standing in a glowing cave illuminated by blue crystals, soft reflections on her face, subtle sparkles of dust around her, fantasy illustration.`
 
+#### Logo
+`a phoenix rising from golden flames, wings spread wide, surrounded by a circular glowing aura, centered on a dark gradient background fading from deep red to black, bright orange and gold color palette, clean fantasy emblem logo style`
+
 ### Thumbnail
-``
+`an epic minecraft pvp battle between two armored players holding diamond swords, sparks flying, glowing lava behind them, cinematic lighting, dynamic camera angle, high contrast, thumbnail composition style`
 
 ### GUI
 ``
@@ -31,11 +36,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 ### 3D Render
 ``
 
-### 3D Model
-``
-
-
-
 ---
 
 ## 🪙 Free — $0 / forever
@@ -45,7 +45,7 @@ All plans include **unlimited generations**, **private rendering**, and access t
 - ⚙️ Access to **Basic Models only (Baby & Noobie)**  
 - 🕓 Public generations (non-private)
 
-
+### Baby models
 
 <div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
   <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
@@ -100,7 +100,7 @@ All plans include **unlimited generations**, **private rendering**, and access t
 - Prompt Accuracy: ⭐⭐½☆☆ (2.5/5)  
 - Generation Speed: ⭐⭐⭐☆☆ (3/5)
 
-### Standard 
+### Standard models
 
 <div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
   <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
@@ -108,9 +108,9 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
     | Model | Preview |
     |:-----:|:--------:|
-    | ultra-hq-16px-v1 | ![Starter preview](/img/diamond_sword_cyan_ultra-hq-16px-v1.png) |
-    | ultra-hq-32px-expanded-v1 | ![Starter preview](/img/diamond_sword_cyan_ultra-hq-32px-expanded-v1.png) |
-    | 64-px-ultimate | ![Starter preview](/img/diamond_sword_cyan_64-px-ultimate.png) |
+    | ultra-hq-16px-v1 | ![Standard preview](/img/diamond_sword_cyan_ultra-hq-16px-v1.png) |
+    | ultra-hq-32px-expanded-v1 | ![Standard preview](/img/diamond_sword_cyan_ultra-hq-32px-expanded-v1.png) |
+    | 64-px-ultimate | ![Standard preview](/img/diamond_sword_cyan_64-px-ultimate.png) |
 
   </div> 
 
@@ -119,14 +119,37 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
     | Model | Preview |
     |:-----:|:--------:|
-    | 2d-parallax | ![Starter preview](/img/A_female_elf_2d-parallax.png) |
-    | anime-based-model | ![Starter preview](/img/A_female_elf_anime-based-model.png) |
-    | 2d-cartoon-art | ![Starter preview](/img/A_female_elf_2d-cartoon-art.png) |
+    | 2d-parallax | ![Standard preview](/img/A_female_elf_2d-parallax.png) |
+    | anime-based-model | ![Standard preview](/img/A_female_elf_anime-based-model.png) |
+    | 2d-cartoon-art | ![Standard preview](/img/A_female_elf_2d-cartoon-art.png) |
 
   </div> 
 </div>
 
-### Pro
+<div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🔥Logo</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
+    | 2d-cartoon-art | ![Standard preview](/img/a_phoenix_rising_from_golden_2d-cartoon-art.png) |
+    | anime-based-model | ![Standard preview](/img/a_phoenix_rising_from_golden_anime-based-model.png) |
+    | 2d-parallax | ![Standard preview](/img/a_phoenix_rising_from_golden_2d-parallax.png) |
+
+  </div> 
+
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🎬 Thumbnail</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
+    | mc-yt-thumbnail | ![Standard preview](/img/an_epic_minecraft_pvp_battle_mc-yt-thumbnail.png) |
+    | mc-yt-thumbnail-alternate | ![Standard preview](/img/an_epic_minecraft_pvp_battle_mc-yt-thumbnail-alternate.png) |
+
+  </div> 
+</div>
+
+### Pro models
 
 <div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
   <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
@@ -134,8 +157,8 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
     | Model | Preview |
     |:-----:|:--------:|
-    | pro-16-px-v3 | ![Starter preview](/img/diamond_sword,_cyan_pro-16-px-v3.png) |
-    | pro-32-px-v2 | ![Starter preview](/img/diamond_sword,_cyan_pro-32-px-v2.png) |
+    | pro-16-px-v3 | ![Standard preview](/img/diamond_sword,_cyan_pro-16-px-v3.png) |
+    | pro-32-px-v2 | ![Standard preview](/img/diamond_sword,_cyan_pro-32-px-v2.png) |
 
   </div> 
 
@@ -144,9 +167,30 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
     | Model | Preview |
     |:-----:|:--------:|
-    | pro-cartoon-v2 | ![Starter preview](/img/A_female_elf_pro-cartoon-v2.png) |
-    | pro-cartoon-portrait-v1 | ![Starter preview](/img/A_female_elf_pro-cartoon-portrait-v1.png) |
+    | pro-cartoon-v2 | ![Standard preview](/img/A_female_elf_pro-cartoon-v2.png) |
+    | pro-cartoon-portrait-v1 | ![Standard preview](/img/A_female_elf_pro-cartoon-portrait-v1.png) |
 
+
+  </div> 
+</div>
+
+<div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🔥Logo</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
+    | pro-cartoon-v2 | ![Standard preview](/img/a_phoenix_rising_from_golden_pro-cartoon-v2.png) |
+    | pro-cartoon-banner-v1 | ![Standard preview](/img/a_phoenix_rising_from_golden_pro-cartoon-banner-v1.png) |
+    | pro-cartoon-portrait-v1 | ![Standard preview](/img/a_phoenix_rising_from_golden_pro-cartoon-portrait-v1.png) |
+
+  </div> 
+
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🎥 Render</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
 
   </div> 
 </div>
@@ -184,6 +228,8 @@ All plans include **unlimited generations**, **private rendering**, and access t
 - Prompt Accuracy: ⭐⭐⭐½☆ (3.5/5)  
 - Generation Speed: ⭐⭐⭐⭐☆ (4/5)
 
+### Ultimate models
+
 <div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
   <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
     <h3 style={{ textAlign: "center", marginTop: "0" }}>🎨 Pixel Art</h3>
@@ -204,8 +250,35 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
     | Model | Preview |
     |:-----:|:--------:|
-    | mc-cartoon-v1 | ![Starter preview](/img/a_female_elf_ultimate-extreme-mc-cartoon-v1.png) |
+    | ultimate-extreme-mc-cartoon-v1 | ![Pro preview](/img/a_female_elf_ultimate-extreme-mc-cartoon-v1.png) |
+    | ultimate-extreme-logo-simple-v1 | ![Pro preview](/img/a_female_elf_ultimate-extreme-logo-simple-v1.png) |
+    | ultimate-extreme-logo-hq-v1 | ![Pro preview](/img/a_female_elf_ultimate-extreme-logo-hq-v1.png) |
+    | ultimate-extreme-logo-simple-fast-v1 | ![Pro preview](/img/a_female_elf_ultimate-extreme-logo-simple-fast-v1.png) |
+    | ultimate-extreme-mc-logo-v1 | ![Pro preview](/img/a_female_elf_ultimate-extreme-mc-logo-v1.png) |
 
+  </div> 
+</div>
+
+<div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🔥Logo</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
+    | ultimate-extreme-mc-cartoon-v1 | ![Pro preview](/img/a_phoenix_rising_from_golden_ultimate-extreme-mc-cartoon-v1.png) |
+    | ultimate-extreme-logo-simple-v1 | ![Pro preview](/img/a_phoenix_rising_from_golden_ultimate-extreme-logo-simple-v1.png) |
+    | ultimate-extreme-logo-hq-v1 | ![Pro preview](/img/a_phoenix_rising_from_golden_ultimate-extreme-logo-hq-v1.png) |
+    | ultimate-extreme-logo-simple-fast-v1 | ![Pro preview](/img/a_phoenix_rising_from_golden_ultimate-extreme-logo-simple-fast-v1.png) |
+    | ultimate-extreme-mc-logo-v1 | ![Pro preview](/img/a_phoenix_rising_from_golden_ultimate-extreme-mc-logo-v1.png) |
+
+
+  </div> 
+
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🎬 Thumbnail</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
 
   </div> 
 </div>
@@ -283,11 +356,27 @@ All plans include **unlimited generations**, **private rendering**, and access t
 - Prompt Accuracy: ⭐⭐⭐⭐☆ (4/5)  
 - Generation Speed: ⭐⭐⭐⭐½ (4.5/5)
 
-<p align="center">
-  ![Free preview](/img/magic_pearl_baby.png)
+<div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🎨 Pixel Art</h3>
 
-  <em>baby-32px-v2</em>
-</p>
+    | Model | Preview |
+    |:-----:|:--------:|
+    | ultimate-extreme-mc-item-up2-16-v1 | ![Pro preview](/img/diamond_sword,_cyan_crystal_blade,_golden_crossguard,_bright_reflections,_polished_finish_ultimate-extreme-mc-item-up2-16-v1.png) |
+
+
+  </div> 
+
+  <div style={{ flex: "1 1 400px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🧝 Illustration</h3>
+
+    | Model | Preview |
+    |:-----:|:--------:|
+    | mc-cartoon-v1 | ![Starter preview](/img/a_female_elf_ultimate-extreme-mc-cartoon-v1.png) |
+
+
+  </div> 
+</div>
 
 ---
 

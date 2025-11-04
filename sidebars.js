@@ -30,8 +30,28 @@ module.exports = {
             'getting/grid/grid_system',
           ],
         },
+        {
+          type: 'category',
+          label: 'GUI',
+          items: [
+            'getting/GUI/base_image',
+            {
+              type: 'category',
+              label: 'Plans',
+              items: [
+                'getting/GUI/Plan/Recommended',
+                'getting/GUI/Plan/Starter',
+                'getting/GUI/Plan/Pro',
+                'getting/GUI/Plan/Enthusiast',
+                'getting/GUI/Plan/Advanced',
+                'getting/GUI/Plan/Ultimate',
+              ],
+            },
+          ],
+        },
         'getting/pricing',
-      ],
+        ],
+        
     },
     {
       type: 'category',
