@@ -2,6 +2,9 @@
 
 import Image from '@theme/IdealImage';
 import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
+import { Module_Workflow } from '@site/docs/shared/workflow_module.mdx';
+
+<Module_Workflow />
 
 The **Starter Plan** is designed to keep your GUI **simple, clean, and visually consistent**,  
 while still improving its **color harmony** and **readability** with PixelGPT’s core model.

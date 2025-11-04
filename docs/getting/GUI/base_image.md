@@ -98,7 +98,7 @@ This guide helps you understand *how to plan and visualize* your GUI before gene
     style={{ maxWidth: '320px', borderRadius: '8px', margin: '0 0.5rem', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 1 – Creating a new white 256×256 canvas in Photopea
+    Creating a new white 256×256 canvas in Photopea
   </p>
 </div>
 
@@ -126,7 +126,7 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
     style={{ maxWidth: '320px', borderRadius: '8px', margin: '0 0.5rem', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 2 – Importing and centering the reference GUI
+    Importing and centering the reference GUI
   </p>
 </div>
 
@@ -159,7 +159,7 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
     style={{ maxWidth: '320px', borderRadius: '8px', margin: '0 0.5rem', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 3 – Preparing and rasterizing the layers
+    Preparing and rasterizing the layers
   </p>
 </div>
 
@@ -192,6 +192,8 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
       label2="Brush tool"
       alt1="Color picker"
       alt2="Brush"
+      width1={40}
+      width2={40}
     />
   </div>
 
@@ -202,7 +204,7 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
   />
 
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 4 – Recoloring with Magic Wand using autumn colors
+    Recoloring with Magic Wand using autumn colors
   </p>
 </div>
 
@@ -233,7 +235,7 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
   <Image img={require('@site/static/img/Blacked.png')} alt="Black overlay" style={{ maxWidth: '320px', margin: '0.5rem', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }} />
   <Image img={require('@site/static/img/gui_autumn_step5_border_slot.png')} alt="Slot layer finished" style={{ maxWidth: '320px', margin: '0.5rem', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }} />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 5 – Restoring visibility for the inventory slots
+    Restoring visibility for the inventory slots
   </p>
 </div>
 
@@ -255,7 +257,7 @@ import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
     style={{ maxWidth: '320px', borderRadius: '8px', margin: '0.5rem', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 6 – Final autumn GUI ready for PixelGPT generation (256×256, white background)
+    Final autumn GUI ready for PixelGPT generation (256×256, white background)
   </p>
 </div>
 
@@ -281,7 +283,7 @@ This step allows the AI to understand your design’s structure, proportions, an
 
 ---
 
-### 🍁 Step 4.1: Open the Reference Image Manager
+#### 🍁 Step 1: Open the Reference Image Manager
 
 1. Go to **PixelGPT home**.  
 2. In the top-right menu, click **Account → My Reference Images**.  
@@ -294,13 +296,13 @@ This step allows the AI to understand your design’s structure, proportions, an
     style={{ maxWidth: '420px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 4.1 – Accessing “My Reference Images” from your account dropdown
+    Accessing “My Reference Images” from your account dropdown
   </p>
 </div>
 
 ---
 
-### 🖼️ Step 4.2: Upload Your GUI Base
+#### 🖼️ Step 2: Upload Your GUI Base
 
 1. Click the **Upload Image** button.  
 2. Select **“Choose File”** (or **“Select Image”**) and browse to your saved GUI base. 
@@ -316,7 +318,7 @@ This step allows the AI to understand your design’s structure, proportions, an
     style={{ maxWidth: '420px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 4.2 – Uploade button
+    Uploade button
   </p>
 </div>
 
@@ -327,13 +329,13 @@ This step allows the AI to understand your design’s structure, proportions, an
     style={{ maxWidth: '420px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 4.2 – Uploading your base GUI image to PixelGPT
+    Uploading your base GUI image to PixelGPT
   </p>
 </div>
 
 ---
 
-### 🧠 Step 4.3: Confirm Upload
+#### 🧠 Step 3: Confirm Upload
 
 Once uploaded, your GUI will appear in the **Your Reference Images** list.
 
@@ -349,23 +351,53 @@ You can now use this image as a **reference** in any generation.
     style={{ maxWidth: '420px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
   />
   <p style={{ fontSize: '0.9rem', color: '#666' }}>
-    Step 4.3 – Your base GUI is now visible in “Your Reference Images”
+    Your base GUI is now visible in “Your Reference Images”
   </p>
 </div>
 
 ---
 
-## ✅ Summary
+## ✅ Summary: Creating Your Base GUI
 
-| Step | Action                 | Goal                                     |
-| ---- | ---------------------- | ---------------------------------------- |
-| 1    | Choose a reference GUI | Preserve Minecraft’s original proportions |
-| 2    | Pick a theme           | Define the visual tone (Autumn, Magic, etc.) |
-| 3    | Draw or edit the base  | Create a clear concept sketch            |
-| 4    | Simplify and export    | Make it readable for AI generation       |
+You've learned how to create a **concept base image** that serves as the foundation for PixelGPT generation.
+
+### 🎯 Key Steps Recap
+
+| Step | Action | Details | Goal |
+|------|--------|---------|------|
+| **1** | **Choose Reference GUI** | Start with default Minecraft inventory (256×256px) | Preserve original proportions and slot alignment |
+| **2** | **Define Your Theme** | Select visual direction (Autumn, Winter, Crystal, etc.) | Establish color palette and atmosphere |
+| **3** | **Edit in Photopea** | Use layers to recolor and modify the base | Create a clear, thematic concept sketch |
+| **4** | **Upload to PixelGPT** | Import via "My Reference Images" | Make it available for AI generation |
+
+### 🔑 Essential Requirements
+
+Before moving to generation, ensure your base image meets these criteria:
+
+- ✅ **Size:** Exactly 256×256 pixels
+- ✅ **Background:** Pure white (#FFFFFF), not transparent
+- ✅ **Alignment:** GUI perfectly centered in canvas
+- ✅ **Format:** PNG file format
+- ✅ **Clarity:** All slots and borders are visible
+- ✅ **Theme:** Colors and style clearly express your concept
+
+### 🎨 What You've Achieved
+
+Your base GUI now serves as:
+- 📐 A **structural reference** showing slot positions and layout
+- 🎨 A **thematic guide** communicating your desired visual style
+- 🧠 A **concept sketch** that PixelGPT will use to generate the final design
+
+### 🚀 Next Steps
+
+> 🧠 You're now ready to move from **concept** to **generation**.
+>
+> 👉 Continue to → [**Recommended – Reference & Generation**](/docs/getting/GUI/Plan/Recommended)
+>
+> In the next section, you'll learn how to:
+> - Select your uploaded reference image
+> - Write effective generation prompts
+> - Fine-tune AI parameters for best results
+> - Generate professional-quality Minecraft GUIs
 
 ---
-
-> 🧠 You’re now ready to move from **concept** to **generation**.
->
-> 👉 Continue to → [**Recommended Plan – Reference & Generation**](/docs/getting/GUI/Plan/Recommended)

@@ -39,7 +39,6 @@ module.exports = {
               type: 'category',
               label: 'Plans',
               items: [
-                'getting/GUI/Plan/Recommended',
                 'getting/GUI/Plan/Starter',
                 'getting/GUI/Plan/Pro',
                 'getting/GUI/Plan/Enthusiast',
