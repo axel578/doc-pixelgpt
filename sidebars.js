@@ -41,8 +41,6 @@ module.exports = {
               items: [
                 'getting/GUI/Plan/Starter',
                 'getting/GUI/Plan/Pro',
-                'getting/GUI/Plan/Enthusiast',
-                'getting/GUI/Plan/Advanced',
                 'getting/GUI/Plan/Ultimate',
               ],
             },
