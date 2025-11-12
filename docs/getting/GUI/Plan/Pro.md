@@ -1,4 +1,4 @@
-# ⚙️ Pro Plan – Ultimate Detail Setup
+# 💎 Pro / Enthusiast / Advanced Plan – Professional Quality
 
 import Image from '@theme/IdealImage';
 import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';

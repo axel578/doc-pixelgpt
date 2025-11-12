@@ -1,4 +1,4 @@
-# ⚙️ Starter Plan – Simple Enhancement Setup
+# 🌱 Starter Plan – Quick Enhancement
 
 import Image from '@theme/IdealImage';
 import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';

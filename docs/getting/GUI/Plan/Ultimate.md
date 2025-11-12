@@ -1,36 +1,48 @@
-# 👑 Advanced / Ultimate Maximum Fidelity
+# 👑 Ultimate Plan – Maximum Fidelity
 
 import Image from '@theme/IdealImage';
 import { GUIReferenceSettings } from '@site/docs/shared/two_images.mdx';
 
 The **Ultimate Plan** is the pinnacle of GUI quality in PixelGPT.  
-This advanced workflow uses **multi-stage enhancement** with the most powerful Elite models  
+This advanced workflow uses **multi-stage enhancement** with Elite models and manual refinement  
 to achieve **photorealistic textures**, **extreme precision**, and **portfolio-grade results**.
 
 ---
 
 ## 🎯 What This Plan Does
 
-The **Ultimate Plan** pushes your GUI to the **absolute highest quality** possible through a carefully designed two-stage workflow. This isn't just enhancement—it's transformation into a professional showcase piece.
+The **Ultimate Plan** pushes your GUI to the **absolute highest quality** possible through a carefully designed three-step workflow combining AI generation and manual refinement. This isn't just enhancement—it's transformation into a professional showcase piece.
 
 > 🏆 Think of it as:  
 > "Museum-quality perfection—every pixel crafted for maximum impact."
 
 ---
 
-## 🏆 Workflow Overview
+## 🏆 Complete Workflow Overview
 
-The Ultimate Plan uses PixelGPT's **Elite models** in a streamlined two-stage process:
+The Ultimate Plan uses a strategic three-step process:
 
-**Stage 1: Foundation Enhancement**  
-Use **elite-mc-any-gui-boosted-v2** to create a high-quality base with rich textures and professional lighting.
+**Step 1: Foundation Generation**  
+Use **elite-mc-any-gui-boosted-v3** (non-HQ) to create a high-quality base with rich textures and professional structure.
 
-**Stage 2: Final Perfection**  
-Use **elite-mc-any-gui-hq-boosted-v3** to achieve razor-sharp clarity, extreme detail, and photorealistic finish.
+**Step 2: Manual Refinement**  
+Fix any issues in **Photopea** to ensure perfect base quality before final enhancement.
 
-> 💡 **Key Advantage:**  
-> Elite models use a simplified workflow with only one critical parameter: **GUI Precision**.  
-> This makes achieving maximum quality straightforward while maintaining professional results.
+**Step 3: Depth & Detail Enhancement**  
+Use **elite-mc-any-gui-hq-boosted-v3** to add extreme depth, detail layers, and photorealistic finish.
+
+**Visual Pipeline:**
+```
+Base Image (Photopea)
+    ↓
+elite-mc-any-gui-boosted-v3 (Foundation)
+    ↓
+Photopea (Manual Fix)
+    ↓
+elite-mc-any-gui-hq-boosted-v3 (Depth & Detail)
+    ↓
+Final Showcase Quality
+```
 
 ---
 
@@ -40,82 +52,87 @@ Use **elite-mc-any-gui-hq-boosted-v3** to achieve razor-sharp clarity, extreme d
 - Final production-ready GUIs for major servers or mods
 - Portfolio showcase pieces and competition entries
 - Maximum visual impact requirements
-- Photorealistic texture quality needs
+- Photorealistic texture quality with depth layers
 - Professional presentations and marketing materials
 
 ### ⏱️ Time Investment:
-- Stage 1 (Foundation): ~5-10 minutes
-- Stage 2 (Perfection): ~5-10 minutes
-- Optional refinements: ~5-10 minutes
+- Step 1 (Foundation): ~5-10 minutes
+- Step 2 (Photopea): ~5-10 minutes
+- Step 3 (Depth & Detail): ~5-10 minutes
 - **Total: 15-30 minutes** for absolute highest quality
 
 ### 🎓 Skill Level:
 - **Recommended:** Intermediate to Advanced
-- **Requires:** Strong prompt crafting skills
+- **Requires:** Strong prompt crafting + basic Photopea skills
 - **Builds on:** Experience with Starter and Pro Plans
 
 ---
 
-## 📍 Stage 1: Foundation Enhancement
+## 📍 Step 1: Foundation Generation
 
 ### 🧩 Model Selection
 
-Select **elite-mc-any-gui-boosted-v2**
+Select **elite-mc-any-gui-boosted-v3** (non-HQ version)
 
 This model creates a premium-quality foundation with:
-- Advanced texture detail and material depth
-- Professional-grade lighting and shadows
-- Rich atmospheric effects
-- Strong structural clarity
+- Professional texture base and material clarity
+- Strong structural definition
+- Clean slot borders and layout
+- Rich color and lighting foundation
+- Solid base ready for manual refinement
+
+> 💡 **Why non-HQ first?**  
+> The non-HQ model creates a clean, structured foundation that's easier to fix manually.  
+> Adding depth and detail comes after ensuring structural perfection.
 
 ---
 
-### 🎛️ Stage 1 Configuration
+### 🎛️ Step 1 Configuration
 
 Elite models have a streamlined workflow with just three elements:
 
 | Element | Specification | Purpose |
 |---------|--------------|---------|
-| **Base Image** | Your Photopea base or previous result | Foundation structure |
-| **GUI Precision** | `7-8` (recommended: `7.5` or `8`) | Balance of detail and structure |
-| **Prompt** | 150-200 words, material-focused | Rich texture and lighting description |
+| **Base Image** | Your Photopea base (256x256px) | Foundation structure |
+| **GUI Precision** | `6`, `7` or `8` (recommended: `7`) | Balance structure and detail |
+| **Prompt** | 150-200 words, structure-focused | Clear layout and materials |
 
-#### GUI Precision Guide for Stage 1:
+#### GUI Precision Guide for Step 1:
 
 | Value | Effect | Best For |
 |-------|--------|----------|
-| **6** | Lower precision, more creative freedom | Experimental styles, artistic interpretation |
-| **7** | Balanced precision with rich detail | Most use cases, versatile quality |
-| **8** | Maximum precision, controlled enhancement | Clean designs, technical accuracy |
+| **6** | More creative interpretation | Experimental styles, artistic freedom |
+| **7** | ⭐ **RECOMMENDED** | Balanced structure and texture |
+| **8** | Maximum structural precision | Technical accuracy, clean designs |
 
-> 💡 **Stage 1 Recommendation:**  
-> Start with **GUI Precision: 7.5** for the best balance of rich detail and structural accuracy.  
-> Use **8** if you need maximum structural preservation from your base image.
+> 💡 **Step 1 Recommendation:**  
+> Use **GUI Precision: 7** for the best foundation.  
+> It creates strong structure while allowing rich texture development.
 
 <GUIReferenceSettings 
   Image1={require('@site/static/img/ultimate_stage1_ref.png')}
   Image2={require('@site/static/img/ultimate_stage1_settings.png')}
-  label1="Stage 1 Base Reference"
-  label2="GUI Precision: 7.5 (Recommended)"
-  alt1="Base image for elite-mc-any-gui-boosted-v2"
-  alt2="Stage 1 configuration"
+  label1="Step 1 Base Image"
+  label2="GUI Precision: 7"
+  alt1="Clean Photopea base for elite-boosted-v3"
+  alt2="Foundation generation settings"
   width1={20}
   width2={75}
 />
 
 ---
 
-### 🧠 Prompt Strategy for Stage 1
+### 🧠 Prompt Strategy for Step 1
 
-For the Foundation stage, your prompt should be **highly detailed and descriptive** with emphasis on materials, lighting, and atmosphere.
+For Foundation generation, focus on **structure, layout, and material base**:
 
-**Essential elements to include:**
-- **Material specifics:** "polished oak wood grain", "weathered stone texture", "carved detail"
-- **Lighting details:** "soft ambient shadows", "gentle rim lighting", "warm glow"
-- **Texture richness:** "visible grain patterns", "natural imperfections", "depth relief"
-- **Atmospheric depth:** "subtle haze", "depth of field", "layered lighting"
+**Essential elements:**
+- **Clear slot layout:** Precise positioning and grid structure
+- **Material foundation:** Base textures without excessive detail
+- **Border emphasis:** CLEAR, DEFINED slot borders
+- **Structural clarity:** Grid organization and spacing
 
-**Example Stage 1 Prompt (117 words):**
+**Example Step 1 Prompt (117 words):**
 
 ```
 Inventory GUI in a warm autumn theme, inspired by cozy forest vibes. The interface features wooden textures, golden light, and scattered orange leaves and trees.
@@ -139,326 +156,290 @@ Lighting is gentle and amber-colored, evoking late autumn afternoon light.
 Medieval style.
 ```
 
-> 💡 **Prompt Length Flexibility:**  
-> Elite models handle longer prompts well. Stage 1 can use 150-200 words to establish rich detail foundation.
+> 💡 **Focus on:**  
+> - Slot clarity and borders (CLEAR, DEFINED, SHARP)
+> - Grid structure and spacing
+> - Material names without excessive adjectives
+> - Functional layout over artistic atmosphere
 
 ---
 
-### ✅ Generate Stage 1 Foundation
+### ✅ Generate Step 1 Foundation
 
 **Setup:**
-1. Select model → **elite-mc-any-gui-boosted-v2**
-2. Upload your base reference image (256x256px Photopea base or refined result)
-3. Set **GUI Precision: 7.5** (or 7-8 based on your needs)
-4. Paste your detailed, material-focused prompt
+1. Select model → **elite-mc-any-gui-boosted-v3** (non-HQ)
+2. Upload your Photopea base image (256x256px)
+3. Set **GUI Precision: 7**
+4. Paste your structure-focused prompt
 5. Click **Generate**
 
-**Expected Stage 1 Results:**
-- Rich, layered textures with visible material properties
-- Professional-grade lighting with atmospheric depth
-- Clear slot definition with strong visual hierarchy
-- Cohesive theme with premium aesthetic
-- Excellent foundation ready for perfection pass
+**Expected Step 1 Results:**
+- Strong structural foundation with clear layout
+- Well-defined slot borders and grid organization
+- Clean base textures and colors
+- Professional lighting and balance
+- Solid foundation ready for manual correction
+
+**Example Result:**
+
+<Image
+  img={require('@site/static/img/Inventory_GUI_in_a_warm_autumn_theme_elite-mc-any-gui-boosted-v3.png')}
+  alt="Step 1 foundation result"
+  style={{ maxWidth: '400px', margin: '2rem auto', display: 'block', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }}
+/>
 
 ---
 
-## 📍 Stage 2: Final Perfection
+## 📍 Step 2: Manual Refinement in Photopea
+
+### 🎨 Why Manual Refinement?
+
+Even with elite-mc-any-gui-boosted-v3's excellent foundation, small imperfections may occur:
+- Slight border irregularities
+- Minor slot misalignments  
+- Small decoration overlaps
+- Subtle color inconsistencies
+
+**Fixing these now** ensures the HQ model in Step 3 enhances perfection, not imperfections.
+
+---
+
+### 🛠️ Photopea Refinement Process
+
+**1. Open Your Step 1 Result**
+- Go to [Photopea.com](https://www.photopea.com)
+- Open your elite-boosted-v3 result
+- Zoom to 200% for precision work
+
+**2. Check These Elements:**
+
+| Area | What to Check | How to Fix |
+|------|--------------|------------|
+| **Slot Borders** | Straight, unbroken lines | Use 1px pencil to redraw |
+| **Slot Interiors** | Consistent dark color | Paint bucket with exact color |
+| **Grid Alignment** | Perfect spacing | Nudge/redraw with guides |
+| **Decoration Overlap** | Nothing over slots | Erase or reposition |
+| **Background** | Pure white (#FFFFFF) | Paint bucket if needed |
+| **Color Consistency** | Matching tones | Color adjustment tools |
+
+**3. Common Fixes:**
+
+**Fix 1: Slot Border Cleanup**
+- Select **Pencil Tool** (1px size)
+- Choose border color from existing good border
+- Carefully redraw any broken or fuzzy borders
+- Keep lines perfectly straight using Shift key
+
+**Fix 2: Slot Interior Correction**
+- Select **Paint Bucket Tool**
+- Pick exact dark interior color from good slot
+- Fill any inconsistent slot interiors
+- Ensure all 36 inventory slots match
+
+**Fix 3: Decoration Repositioning**
+- If decorations overlap slots, use **Eraser Tool**
+- Clean up any leaves, vines, or accents over functional areas
+- Keep decorations only in frame/border areas
+
+**Fix 4: Background Cleanup**
+- Select **Paint Bucket Tool**
+- Fill background with pure white (#FFFFFF)
+- No transparency, no off-white variations
+
+**4. Save Your Fixed Version:**
+- `File → Export As → PNG`
+- Name: `[original_name]_fixed.png`
+- Example: `Inventory_GUI_in_a_warm_autumn_theme_elite-mc-any-gui-boosted-v3_fixed.png`
+
+**Example Fixed Version:**
+
+<Image
+  img={require('@site/static/img/Inventory_GUI_in_a_warm_autumn_theme_elite-mc-any-gui-boosted-v3_fixed.png')}
+  alt="Step 2 manually refined result"
+  style={{ maxWidth: '400px', margin: '2rem auto', display: 'block', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }}
+/>
+
+> 💡 **Pro Tip:**  
+> Spend 5-10 minutes on manual fixes. Perfecting the base now means Step 3 will enhance beauty, not errors.
+
+---
+
+## 📍 Step 3: Depth & Detail Enhancement
 
 ### 🧩 Model Selection
 
-Select **elite-mc-any-gui-hq-boosted-v3**
+Select **elite-mc-any-gui-hq-boosted-v3** (HQ version)
 
-This is PixelGPT's **ultimate refinement model**, specifically designed to deliver:
-- Razor-sharp clarity and edge definition
-- Extreme texture detail and precision
-- Crystal-clear slot visibility
-- Professional studio-quality finish
-- Maximum photorealistic fidelity
+This is the **depth and detail specialist**, designed to add:
+- Extreme texture depth and layering
+- Photorealistic material rendering
+- Enhanced lighting and shadow complexity
+- Rich atmospheric effects
+- Three-dimensional depth perception
+- Professional polish and finish
+
+> 💡 **Why HQ last?**  
+> The HQ model excels at adding depth layers and fine detail to an already-perfect structure.  
+> It transforms your clean base into a photorealistic masterpiece.
 
 ---
 
-### 🎛️ Stage 2 Configuration
+### 🎛️ Step 3 Configuration
 
 | Element | Specification | Purpose |
 |---------|--------------|---------|
-| **Base Image** | Your Stage 1 result (elite-boosted-v2 output) | Premium foundation to refine |
-| **GUI Precision** | `7-8` (recommended: `8`) | Maximum clarity and sharpness |
-| **Prompt** | Same as Stage 1 + clarity keywords | Precision enhancement focus |
+| **Base Image** | Your Step 2 fixed result | Perfect foundation |
+| **GUI Precision** | `6-8` (recommended: `7`) | Balance depth and clarity |
+| **Prompt** | Step 1 prompt + depth keywords | Add texture layers and depth |
 
-#### GUI Precision Guide for Stage 2:
+#### GUI Precision Guide for Step 3:
 
 | Value | Effect | Best For |
 |-------|--------|----------|
-| **6** | Lower precision, softer refinement | Artistic, painterly final look |
-| **7** | Balanced clarity enhancement | Natural photorealistic finish |
-| **7.5** | High clarity with detail preservation | Versatile high-quality output |
-| **8** | Maximum sharpness and precision | Razor-sharp showcase quality (RECOMMENDED) |
+| **6** | Maximum depth layers | Rich, painterly atmosphere |
+| **7** | ⭐ **RECOMMENDED** | Balanced depth and clarity |
+| **8** | Controlled depth, more precision | Clean depth without softness |
 
-> 💡 **Stage 2 Recommendation:**  
-> Use **GUI Precision: 8** for maximum sharpness and crystal-clear slot definition.  
-> This is the perfection stage—push clarity to the absolute limit.
+> 💡 **Step 3 Recommendation:**  
+> Use **GUI Precision: 7** for beautiful depth layers while maintaining sharpness.  
+> The HQ model will add texture richness and three-dimensional quality.
 
 <GUIReferenceSettings 
   Image1={require('@site/static/img/ultimate_stage2_ref.png')}
   Image2={require('@site/static/img/ultimate_stage2_settings.png')}
-  label1="Stage 2 Base (Stage 1 Result)"
-  label2="GUI Precision: 8 (Maximum)"
-  alt1="Stage 1 result as new base"
-  alt2="Stage 2 HQ refinement configuration"
+  label1="Step 3 Base (Fixed Result)"
+  label2="GUI Precision: 7"
+  alt1="Manually refined base for elite-hq-boosted-v3"
+  alt2="Depth & detail enhancement settings"
   width1={20}
   width2={75}
 />
 
 ---
 
-### 🧠 Prompt Strategy for Stage 2
+### 🧠 Prompt Strategy for Step 3
 
-For Final Perfection, you have two approach options:
+Enhance your Step 1 prompt with **depth, layering, and detail keywords**:
 
-#### **Option A: Enhanced Prompt (Recommended)**
+**Add these depth elements:**
+- "visible grain patterns", "texture depth"
+- "layered lighting", "soft ambient occlusion"
+- "three-dimensional relief", "depth perception"
+- "photorealistic material rendering"
+- "rich shadow gradients", "highlight layers"
 
-Take your Stage 1 prompt and add precision-focused keywords:
+**Example Step 3 Prompt (Enhanced from Step 1):**
 
 ```
-[Your complete Stage 1 prompt]
+[Your complete Step 1 prompt]
 
-Enhanced for CRYSTAL CLEAR DEFINITION with razor-sharp slot borders, maximum contrast edges, polished studio finish. Professional precision with perfect readability. Sharp, unbroken borders throughout. Studio lighting quality for showcase presentation.
+Enhanced with DEPTH LAYERS: visible wood grain patterns, three-dimensional carved relief on frames, photorealistic material rendering with texture depth. Soft ambient occlusion in corners creates depth perception. Layered lighting with subtle shadow gradients and natural highlight reflections. Rich atmospheric depth with gentle haze. Professional photorealistic finish with material complexity and natural imperfections for realism.
 ```
 
-#### **Option B: Same Prompt**
+**Alternative: Keep Same Prompt**
 
-Keep your Stage 1 prompt identical. The elite-mc-any-gui-hq-boosted-v3 model with GUI Precision: 8 automatically enhances clarity.
-
-> 💡 **Which to use?**  
-> - **Option A** if you want explicit control over sharpness emphasis
-> - **Option B** for natural, model-driven perfection (often excellent results)
+The elite-mc-any-gui-hq-boosted-v3 model automatically adds depth. You can keep your Step 1 prompt identical and let the HQ model work its magic naturally.
 
 ---
 
-### ✅ Generate Stage 2 Perfection
+### ✅ Generate Step 3 Final Result
 
 **Setup:**
-1. Select model → **elite-mc-any-gui-hq-boosted-v3**
-2. Upload your **Stage 1 result** (elite-boosted-v2 output)
-3. Set **GUI Precision: 8** for maximum clarity
-4. Use your precision-enhanced prompt (or keep Stage 1 prompt)
+1. Select model → **elite-mc-any-gui-hq-boosted-v3** (HQ)
+2. Upload your **Step 2 fixed result** (_fixed.png)
+3. Set **GUI Precision: 7**
+4. Use depth-enhanced prompt (or keep Step 1 prompt)
 5. Click **Generate**
 
 **Expected Final Results:**
-- Razor-sharp slot borders and edge definition
-- Crystal-clear texture details with extreme precision
-- Maximum contrast and visual clarity
-- Professional studio-quality polish
-- Portfolio-grade, showcase-ready presentation
-- Photorealistic material rendering at peak quality
+- Extreme texture depth with visible grain and material layers
+- Photorealistic three-dimensional quality
+- Rich lighting complexity with layered shadows
+- Professional atmospheric depth
+- Museum-quality polish and presentation
+- Portfolio-ready showcase piece
+
+**Example Final Result:**
+
+<Image
+  img={require('@site/static/img/Inventory_GUI_in_a_warm_autumn_theme_elite-mc-any-gui-hq-boosted-v3.png')}
+  alt="Step 3 final depth and detail result"
+  style={{ maxWidth: '400px', margin: '2rem auto', display: 'block', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }}
+/>
 
 ---
 
-## 🔍 Two-Stage Comparison
+## 🔍 Three-Step Comparison
 
-| Aspect | Stage 1 (Foundation) | Stage 2 (Perfection) |
-|--------|---------------------|---------------------|
-| **Model** | elite-mc-any-gui-boosted-v2 | elite-mc-any-gui-hq-boosted-v3 |
-| **GUI Precision** | 7-7.5 (balanced) | 8 (maximum) |
-| **Purpose** | Rich texture foundation | Extreme clarity refinement |
-| **Texture Quality** | High detail, atmospheric | Razor-sharp, photorealistic |
-| **Slot Clarity** | Clear and defined | Crystal-clear, maximum contrast |
-| **Lighting** | Professional, layered | Studio-quality, polished |
-| **Prompt Length** | 150-200 words (detailed) | Same + clarity keywords |
-| **Output** | Premium foundation | Museum-quality final |
+| Aspect | Step 1 (Foundation) | Step 2 (Manual Fix) | Step 3 (Depth & Detail) |
+|--------|-------------------|-------------------|----------------------|
+| **Model** | elite-mc-any-gui-boosted-v3 | Human (Photopea) | elite-mc-any-gui-hq-boosted-v3 |
+| **Purpose** | Create structured base | Perfect the foundation | Add depth layers |
+| **Focus** | Clean layout, borders | Fix imperfections | Texture depth, atmosphere |
+| **Quality** | Professional foundation | Perfected structure | Photorealistic final |
+| **Output** | Solid base | Error-free base | Museum-quality result |
 
 ---
 
-## 📊 GUI Precision Value Guide
+## 🧪 Experimentation Examples
 
-Understanding how to use the 6-8 range effectively:
+Here's how the same concept evolves through different GUI Precision approaches:
 
-### Stage 1 (elite-mc-any-gui-boosted-v2):
+### Experimentation Set 1: Precision Variations
 
-**Value 6:** Maximum creative freedom
-- Most artistic interpretation
-- Rich atmospheric effects
-- Less structural constraint
-- Best for: Experimental styles, fantasy themes
+<div style={{
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'stretch',
+  flexWrap: 'wrap',
+  gap: '2rem',
+  maxWidth: '1200px',
+  margin: '2rem auto',
+}}>
+  <div style={{ flex: '1 1 250px', textAlign: 'center' }}>
+    <Image
+      img={require('@site/static/img/Ultimate_experiment1.png')}
+      alt="Ultimate experiment variation 1"
+      style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 3px 10px rgba(0,0,0,0.15)' }}
+    />
+  </div>
 
-**Value 7:** Balanced enhancement
-- Good detail with flexibility
-- Natural artistic quality
-- Reliable results
-- Best for: Most use cases, versatile output
+  <div style={{ flex: '1 1 250px', textAlign: 'center' }}>
+    <Image
+      img={require('@site/static/img/Ultimate_experiment2.png')}
+      alt="Ultimate experiment variation 2"
+      style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 3px 10px rgba(0,0,0,0.15)' }}
+    />
+  </div>
 
-**Value 7.5:** High precision foundation ⭐ RECOMMENDED
-- Strong detail preservation
-- Excellent texture richness
-- Controlled enhancement
-- Best for: Starting point for most projects
+  <div style={{ flex: '1 1 250px', textAlign: 'center' }}>
+    <Image
+      img={require('@site/static/img/Ultimate_experiment3.png')}
+      alt="Ultimate experiment variation 3"
+      style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 3px 10px rgba(0,0,0,0.15)' }}
+    />
+  </div>
+</div>
 
-**Value 8:** Maximum precision
-- Highest structural fidelity
-- Controlled creative enhancement
-- Clean, accurate output
-- Best for: Technical designs, precise concepts
-
-### Stage 2 (elite-mc-any-gui-hq-boosted-v3):
-
-**Value 6:** Softer refinement
-- Artistic, painterly finish
-- Gentle clarity enhancement
-- Best for: Stylized final look
-
-**Value 7:** Natural perfection
-- Balanced sharpness
-- Photorealistic without over-processing
-- Best for: Natural, organic final aesthetic
-
-**Value 7.5:** High clarity
-- Strong sharpness and detail
-- Professional polish
-- Best for: High-quality production work
-
-**Value 8:** Maximum sharpness ⭐ RECOMMENDED
-- Razor-sharp definition
-- Crystal-clear slots
-- Extreme precision
-- Best for: Showcase pieces, absolute maximum quality
+> 💡 **Try different approaches:**  
+> The same base can produce different final aesthetics based on GUI Precision choices.  
+> Experiment to find your preferred balance of clarity and depth.
 
 ---
 
-## 🎯 Quick Setup Reference
+## 📊 GUI Precision Strategy Matrix
 
-### Recommended Configuration:
+### Recommended Combinations:
 
-**Stage 1 Setup:**
-- Model: `elite-mc-any-gui-boosted-v2`
-- Base Image: Your Photopea base or previous result
-- GUI Precision: `7.5`
-- Prompt: 150-200 words, material-rich
+| Step 1 | Step 3 | Result Character | Best For |
+|--------|--------|-----------------|----------|
+| 8 | 8 | Maximum precision, controlled depth | Technical GUIs, clean designs |
+| 7 | 7 | ⭐ **Balanced clarity and depth** | **Most use cases** |
+| 7 | 6 | Strong depth layers, rich atmosphere | Fantasy themes, artistic |
+| 7 | 8 | Clean with subtle depth | Professional polish, versatile |
+| 6 | 7 | Creative with balanced finish | Experimental styles |
 
-**Stage 2 Setup:**
-- Model: `elite-mc-any-gui-hq-boosted-v3`
-- Base Image: Your Stage 1 result
-- GUI Precision: `8`
-- Prompt: Stage 1 prompt + clarity keywords (or same)
-
----
-
-## 💡 Pro Tips for Ultimate Plan
-
-### Stage 1 Strategy:
-
-**1. Generate Multiple Variations**
-- Try GUI Precision: 7, 7.5, and 8
-- Compare which gives best foundation for your style
-- Save all results for Stage 2 testing
-
-**2. Focus on Material Description**
-- Rich texture vocabulary in prompt
-- Specific lighting descriptions
-- Atmospheric depth keywords
-
-**3. Don't Over-Correct**
-- If one element isn't perfect, Stage 2 will refine it
-- Focus on getting good overall foundation
-- Trust the two-stage process
-
-### Stage 2 Strategy:
-
-**1. Use Maximum Precision**
-- GUI Precision: 8 is recommended
-- This is the sharpness stage—push it
-- Trust the model's refinement capabilities
-
-**2. Enhance Your Prompt**
-- Add clarity and precision keywords
-- Or keep Stage 1 prompt for natural enhancement
-- Test both approaches
-
-**3. Generate 1-2 Variations**
-- Try with enhanced prompt vs. same prompt
-- Compare sharpness and clarity
-- Select absolute best result
-
----
-
-## 🔧 Troubleshooting Guide
-
-### Stage 1 Issues:
-
-**Problem: Too soft or blurry**
-- ✅ Solution: Increase GUI Precision to 8
-- ✅ Alternative: Add more texture detail keywords to prompt
-
-**Problem: Too chaotic or noisy**
-- ✅ Solution: Decrease GUI Precision to 7
-- ✅ Alternative: Simplify prompt, remove excessive adjectives
-
-**Problem: Lost structure from base**
-- ✅ Solution: Increase GUI Precision to 8
-- ✅ Alternative: Strengthen structural descriptions in prompt
-
-**Problem: Wrong mood or atmosphere**
-- ✅ Solution: Adjust atmospheric and lighting keywords
-- ✅ Keep GUI Precision unchanged
-
-### Stage 2 Issues:
-
-**Problem: Not sharp enough**
-- ✅ Solution: Ensure GUI Precision is set to 8
-- ✅ Alternative: Add "razor-sharp", "crystal clear" to prompt
-
-**Problem: Over-sharpened or artificial**
-- ✅ Solution: Reduce GUI Precision to 7 or 7.5
-- ✅ Alternative: Remove aggressive sharpness keywords
-
-**Problem: Lost some details from Stage 1**
-- ✅ Solution: Lower GUI Precision to 7.5
-- ✅ Alternative: Keep Stage 1 prompt exactly as is
-
-**Problem: Too different from Stage 1**
-- ✅ Solution: Use GUI Precision: 8 with identical Stage 1 prompt
-- ✅ Avoid adding too many new keywords in Stage 2
-
----
-
-## 🧪 Experimentation Guide
-
-### Three Strategic Approaches:
-
-**Approach A: Maximum Preservation**
-- Stage 1: GUI Precision `8` + detailed prompt
-- Stage 2: GUI Precision `8` + same prompt
-- Result: Extremely faithful to concept, maximum clarity
-
-**Approach B: Balanced Enhancement** ⭐ RECOMMENDED
-- Stage 1: GUI Precision `7.5` + detailed prompt
-- Stage 2: GUI Precision `8` + enhanced prompt
-- Result: Beautiful balance of rich detail and precision
-
-**Approach C: Creative Maximum**
-- Stage 1: GUI Precision `7` + atmospheric prompt
-- Stage 2: GUI Precision `7.5` + same prompt
-- Result: Most artistic interpretation, natural refinement
-
-> 💡 **Start with Approach B**, then adjust based on your style preferences.
-
----
-
-## 🔄 Optional: Variant Refinement
-
-After Stage 2, you can create **micro-refinements** by running the result through **elite-mc-any-gui-hq-boosted-v3** again:
-
-**Variant Setup:**
-- Base Image: Your Stage 2 result
-- GUI Precision: `8` (maintain maximum)
-- Prompt: Adjust specific elements you want to refine
-
-**Use Cases:**
-- Slightly adjust lighting warmth/coolness
-- Enhance specific texture areas
-- Create alternate color temperature versions
-- Push sharpness even further
-
-This is optional and best used when you're 95% satisfied but want minor tweaks.
+> 💡 **Start with 7 → 6** for the most reliable, beautiful results.
 
 ---
 
@@ -466,131 +447,94 @@ This is optional and best used when you're 95% satisfied but want minor tweaks.
 
 Before finalizing, verify at **200% zoom**:
 
-| Check | What to Verify | Target Quality |
-|-------|---------------|----------------|
-| **Slot Borders** | Sharp, unbroken, high contrast | Razor-sharp definition |
-| **Slot Interiors** | Dark, clear contrast with frames | Maximum readability |
-| **Texture Detail** | Visible grain, material properties | Photorealistic depth |
-| **Lighting** | Realistic shadows, highlights | Studio-quality polish |
-| **Edge Definition** | All elements clearly separated | Crystal-clear boundaries |
-| **Visual Hierarchy** | Slots prioritized over decorations | Perfect functional clarity |
-| **Overall Polish** | No artifacts, clean finish | Museum-grade quality |
+### Step 1 Checks:
+- [ ] All slot borders are present and defined
+- [ ] Grid structure matches your concept
+- [ ] Colors and base textures look good
+- [ ] Layout is functionally clear
+- [ ] Ready for manual refinement
+
+### Step 2 Checks:
+- [ ] All slot borders are perfectly straight
+- [ ] All slot interiors are consistent color
+- [ ] No decorations overlap functional areas
+- [ ] Background is pure white (#FFFFFF)
+- [ ] Grid alignment is perfect
+- [ ] Ready for depth enhancement
+
+### Step 3 Checks:
+- [ ] Texture depth is visible and realistic
+- [ ] Lighting has layered complexity
+- [ ] Material rendering looks photorealistic
+- [ ] Depth doesn't compromise slot clarity
+- [ ] Overall polish is museum-quality
+- [ ] Ready for showcase/delivery
 
 ---
 
 ## 📋 Complete Workflow Checklist
 
 ### Preparation:
-- [ ] Create clean base image in Photopea (256x256px)
-- [ ] Write detailed prompt (150-200 words)
-- [ ] Include slot visibility keywords (CLEAR BORDERS, dark interiors)
+- [ ] Create clean base in Photopea (256x256px)
+- [ ] Write structure-focused prompt (150 words)
+- [ ] Include slot visibility keywords
 - [ ] Remove trigger words ("player" → "display area")
-- [ ] Verify prompt focuses on materials and lighting
 
-### Stage 1 - Foundation:
-- [ ] Select model: `elite-mc-any-gui-boosted-v2`
-- [ ] Upload base image
-- [ ] Set GUI Precision: `7.5` (or test 7, 7.5, 8)
-- [ ] Paste detailed prompt
-- [ ] Generate 1-3 variations
-- [ ] Evaluate and select best foundation
-- [ ] Save result for Stage 2
+### Step 1 - Foundation:
+- [ ] Select model: `elite-mc-any-gui-boosted-v3`
+- [ ] Upload Photopea base image
+- [ ] Set GUI Precision: `7`
+- [ ] Paste structure-focused prompt
+- [ ] Generate foundation
+- [ ] Save result with clear name
 
-### Stage 2 - Perfection:
+### Step 2 - Manual Refinement:
+- [ ] Open Step 1 result in Photopea
+- [ ] Zoom to 200% for precision
+- [ ] Fix slot borders with 1px pencil
+- [ ] Correct slot interiors with paint bucket
+- [ ] Clean up any decoration overlaps
+- [ ] Ensure pure white background
+- [ ] Export as `[name]_fixed.png`
+
+### Step 3 - Depth & Detail:
 - [ ] Select model: `elite-mc-any-gui-hq-boosted-v3`
-- [ ] Upload Stage 1 result
-- [ ] Set GUI Precision: `8`
-- [ ] Use enhanced prompt (or keep Stage 1 prompt)
-- [ ] Generate final perfection
+- [ ] Upload Step 2 fixed result
+- [ ] Set GUI Precision: `7`
+- [ ] Use depth-enhanced prompt (or same)
+- [ ] Generate final enhancement
 - [ ] Verify quality at 200% zoom
-- [ ] Compare multiple outputs if generated
+- [ ] Save final showcase version
 
-### Optional Refinement:
-- [ ] If needed, run Stage 2 result through elite-hq-boosted-v3 again
-- [ ] Use GUI Precision: `8` for consistency
-- [ ] Make micro-adjustments to prompt
-- [ ] Generate final variant
-
-### Final Verification:
-- [ ] Check all quality criteria
-- [ ] Verify slot clarity and readability
-- [ ] Ensure professional polish
-- [ ] Confirm showcase-ready quality
+### Final Delivery:
+- [ ] All quality checks passed
+- [ ] Showcase-ready quality achieved
+- [ ] Document successful settings
+- [ ] Save workflow notes for future projects
 
 ---
 
-## 🎓 Learning Path
+## 💎 Why Three Steps Work Better
 
-### If You're New to Ultimate Plan:
+### The Power of the Pipeline:
 
-**Step 1:** Master Starter and Pro Plans first
-- Understand basic prompt crafting
-- Get comfortable with GUI generation
-- Learn what makes good vs. great results
+**Step 1 (Foundation):** Creates clean structure
+- Non-HQ model focuses on layout clarity
+- Easier to fix issues before adding complexity
+- Establishes solid base for enhancement
 
-**Step 2:** Study prompt construction
-- Focus on material descriptions
-- Learn atmospheric keywords
-- Practice slot visibility emphasis
+**Step 2 (Manual):** Ensures perfection
+- Human eye catches what AI might miss
+- Fixes are easy on clean foundation
+- Prevents enhancing errors in Step 3
 
-**Step 3:** Experiment with GUI Precision
-- Test different values on same prompt
-- Understand how precision affects output
-- Find your preferred balance
+**Step 3 (Depth):** Adds photorealism
+- HQ model excels at texture layers
+- Works on perfect base = perfect result
+- Adds depth without compromising structure
 
-**Step 4:** Try two-stage workflow
-- Start with Approach B (recommended)
-- Document your settings and results
-- Build intuition for your style
-
-**Step 5:** Refine your technique
-- Develop prompt templates
-- Optimize GUI Precision per project type
-- Master the complete pipeline
-
----
-
-## 💎 Elite Models vs. Ultimate Extreme Models
-
-| Aspect | Elite Models (Ultimate Plan) | Ultimate Extreme Models (Pro Plan) |
-|--------|----------------------------|----------------------------------|
-| **Configuration** | GUI Precision only (6-8) | 6 reference parameters |
-| **Workflow** | Two-stage (Foundation + Perfection) | Single or multi-pass |
-| **Complexity** | Simplified, streamlined | Detailed parameter control |
-| **Best For** | Maximum quality with ease | Fine-tuned customization |
-| **Quality Ceiling** | Absolute maximum | Very high |
-| **Learning Curve** | Moderate | Steeper |
-
-**Ultimate Plan is best when:**
-- You want the absolute highest quality possible
-- You prefer streamlined workflow over parameter complexity
-- You're creating showcase or portfolio pieces
-- Time investment for maximum quality is acceptable
-
-**Pro Plan is best when:**
-- You want detailed control over every aspect
-- You need single-pass professional results
-- You're comfortable with multiple parameters
-- You're doing production work at scale
-
----
-
-## 📊 Results Comparison
-
-### Quality Tiers:
-
-| Plan | Quality Level | Time | Complexity |
-|------|--------------|------|------------|
-| **Starter** | Good (75-80%) | 5-10 min | Low |
-| **Pro** | Professional (85-92%) | 10-30 min | Medium |
-| **Ultimate** | Maximum (95-100%) | 15-30 min | Medium |
-
-**The 95-100% Difference:**
-- Photorealistic material rendering
-- Razor-sharp clarity throughout
-- Studio-grade polish and lighting
-- Perfect for critical showcase needs
-- Worth extra time for portfolio pieces
+> 💡 **Each step has a purpose:**  
+> Structure → Perfection → Depth = Maximum Quality
 
 ---
 
@@ -598,57 +542,61 @@ Before finalizing, verify at **200% zoom**:
 
 ### What You've Achieved:
 
-At completion, your GUI has:
-- ✨ Photorealistic textures at peak fidelity
-- 🔍 Razor-sharp slot definition and borders
-- 🎨 Studio-quality lighting and shadows
-- 🏆 Museum-grade polish and presentation
-- 💎 Portfolio-ready, showcase-quality output
+Through the three-step workflow, your GUI has:
+- ✨ Professional structural foundation (Step 1)
+- 🔧 Human-verified perfection (Step 2)
+- 🎨 Photorealistic depth and detail (Step 3)
+- 🏆 Museum-grade final quality
+- 💎 Portfolio-ready showcase piece
 
 ### Best Use Cases:
 
-- Major server or mod releases requiring top-tier quality
-- Portfolio showcase pieces and professional presentations
-- Competition entries and contest submissions
-- Marketing materials and promotional content
+- Major server releases requiring top-tier quality
+- Portfolio showcase and competition pieces
+- Professional presentations and marketing
 - Any project demanding absolute maximum quality
+- When quality is more important than speed
 
-### Time vs. Quality Investment:
+### Time vs. Quality:
 
-**15-30 minutes** for the absolute highest quality possible
-- Stage 1: 5-10 minutes (foundation)
-- Stage 2: 5-10 minutes (perfection)
-- Optional refinement: 5-10 minutes (variants)
+**15-30 minutes total:**
+- Step 1: 5-10 minutes (foundation)
+- Step 2: 5-10 minutes (manual fix)
+- Step 3: 5-10 minutes (depth)
 
 **Worth it when:**
-- Quality is the top priority
-- Project visibility is high
-- Professional reputation matters
 - Creating portfolio pieces
+- Maximum quality is priority
+- Professional reputation matters
+- Final delivery to clients
 
 ---
 
 ## 🌟 Final Thoughts
 
-The Ultimate Plan represents the **pinnacle of what's possible** with PixelGPT's Elite models. Through the strategic two-stage workflow, you're not just enhancing—you're achieving **photorealistic perfection**.
+The Ultimate Plan's three-step workflow represents **the absolute peak** of what's achievable with PixelGPT. By combining:
+- AI's structural generation power
+- Human precision and quality control  
+- AI's depth and detail enhancement
+
+...you create results that transcend typical AI output and achieve true photorealistic quality.
 
 **Key Success Factors:**
-1. ✅ Strong prompt with material and lighting focus
-2. ✅ Strategic GUI Precision values (7.5 → 8)
-3. ✅ Trust the two-stage process
-4. ✅ Verify quality at 200% zoom
-5. ✅ Document successful approaches
+1. ✅ Strong structure-focused prompt for Step 1
+2. ✅ Careful manual fixes in Step 2 (don't skip!)
+3. ✅ Strategic GUI Precision values (7 → 7 recommended)
+4. ✅ Trust the HQ model's depth enhancement
+5. ✅ Verify quality at every step
 
 **Remember:**
-- Elite models are streamlined for maximum quality
-- GUI Precision is your primary control
-- Prompts drive the rich detail foundation
-- Two stages = Foundation + Perfection
-- Results speak for themselves
+- Each step builds on the previous
+- Don't skip manual refinement
+- The HQ model needs a perfect base
+- Results justify the time investment
 
 ---
 
-> 🚀 **You're Ready!** You now have complete mastery of PixelGPT's Ultimate Plan workflow. Create museum-quality, photorealistic Minecraft GUIs that represent the absolute peak of what's achievable!
+> 👑 **You're Ready!** Master the three-step Ultimate Plan workflow and create museum-quality, photorealistic Minecraft GUIs that represent the absolute pinnacle of PixelGPT's capabilities!
 
 ---
 
@@ -657,4 +605,4 @@ The Ultimate Plan represents the **pinnacle of what's possible** with PixelGPT's
 - [🌱 Starter Plan](/docs/getting/GUI/Plan/Starter) — Learn the basics
 - [💎 Pro Plan](/docs/getting/GUI/Plan/Pro) — Master intermediate techniques  
 - [🧠 Prompting Guide](/docs/getting/prompting/Prompting_is_key) — Perfect your prompts
-- [🎨 Base Image Creation](/docs/getting/GUI/Base) — Photopea fundamentals
+- [🎨 Photopea Guide](/docs/getting/GUI/Base) — Manual refinement skills
