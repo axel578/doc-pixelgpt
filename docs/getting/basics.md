@@ -20,54 +20,61 @@ import Image from '@theme/IdealImage';
 
 ### 🔎 Explanation  
 
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '32px',
+  marginTop: '14px'
+}}>
+
+<div style={{ flex: '1 1 360px' }}>
+
 **1. Expert tab**  
-Switches to the **Expert** interface, unlocking full control over models and settings.
+Switches to the **Expert** interface.
 
 **2. Prompt input zone**  
-Main text box where you type your image prompt.
+Where you type your prompt.
 
-**3. Text accuracy slider / setting**  
-Controls how strictly the AI follows your prompt vs. allowing more creativity.
+**3. Text accuracy slider**  
+Adjust strictness vs. creativity.
 
 **4. Collection selection**  
-Choose which **collection** the generated image will be saved into.
+Choose where the image will be saved.
 
 **5. Generate Image button**  
-Starts the image generation using your prompt, model, and settings.
+Starts the generation.
 
 **6. Plan selection**  
-Choose between plan tiers:  
-**Baby / Standard / Pro / Ultimate / Elite / Orion**  
-This filters available models based on your subscription.
+Baby / Standard / Pro / Ultimate / Elite / Orion
+
+</div>
+
+<div style={{ flex: '1 1 360px' }}>
 
 **7. Model type selection**  
-Select the **category of model**, such as:  
-- Pixel Art  
-- Illustration  
-- Realistic / Photography  
-- Thumbnail  
-- GUI  
-- 3D Render  
+Pixel Art, Illustration, Realistic, Thumbnail, GUI, 3D Render.
 
-**8. Models sub-types selection**   
-Models sub-types selection
+**8. Model sub-types**  
+Filtered variations.
 
 **9. Model list**  
-Shows all models available for the selected Plan
+All available models.
 
-**10. Model version selection**  
-Some models have multiple versions (v1, v2, v3…).  
-You can pick the one that fits your style or performance needs.
+**10. Model version**  
+Pick v1 / v2 / v3...
 
 **11. Model name**  
-Displays the full name of the model currently selected (e.g. `ultimate-extreme-mc-item-32-v3`).
+Shows full model name.
 
-**12. “Select this AI Model” button**  
-Confirms your model choice and makes it the active generator.
+**12. Select this AI Model**  
+Confirms model choice.
 
 **13. Favorite toggle**  
-Marks a model as **favorite**, so you can find it faster later.
+Marks a model as favorite.
 
+</div>
+
+</div>
 
 ---
 
@@ -83,14 +90,31 @@ Marks a model as **favorite**, so you can find it faster later.
 
 ### 🔎 Explanation  
 
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '32px',
+  marginTop: '14px'
+}}>
+
+<div style={{ flex: '1 1 360px' }}>
+
 **1. “Account” → “My Pictures” button**  
-Opens your personal image gallery, where all your generated images are stored.
+Opens your gallery.
 
 **2. Generation in progress**  
-Displays the progress bar while PixelGPT is generating your image.
+Displays the progress bar.
+
+</div>
+
+<div style={{ flex: '1 1 360px' }}>
 
 **3. Image preview**  
-Shows a preview of the lasts generated images.
+Shows your recent generated images.
+
+</div>
+
+</div>
 
 ---
 
@@ -106,33 +130,49 @@ Shows a preview of the lasts generated images.
 
 ### 🔎 Explanation  
 
-**1. Search bar**  
-Search generated images by any word used in the prompt.
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '32px',
+  marginTop: '14px'
+}}>
 
-**2. Filter / Favorite / Collection selector**  
-Filter images by favorites, specific collections.
+<div style={{ flex: '1 1 360px' }}>
+
+**1. Search bar**  
+Search by prompt keywords.
+
+**2. Filter / Favorites / Collection selector**  
+Filter your images.
 
 **3. Apply**  
-Apply all filters.
+Applies the filters.
 
-**3. Image preview**  
-Shows a preview of the generated image.
+**4. Image preview**  
+Shows the generated image.
+
+</div>
+
+<div style={{ flex: '1 1 360px' }}>
 
 **5. Prompt preview**  
-Shows a shortened version of the original prompt used for the image.
+Short preview of the original prompt.
 
 **6. Model used**  
-Displays the name of the AI model used to generate that specific image.
+Model that generated the image.
 
 **7. Action buttons**  
-For each image, you can access quick tools such as:  
-- 👁️ **View prompt** — See the full prompt used  
-- 📋 **Copy prompt** — Copy the prompt  
-- 🧼 **Clean background** — Remove white or flat backgrounds 
-- ⬇️ **Download image** — Save the PNG file locally  
-- 🧠 **View text accuracy** — See how well the model followed your prompt  
-- 🧩 **Create Grid** — Build a grid from the image  
-- 🗑️ **Delete image** — Remove it from your library  
-- 🗂️ **Add to collection** — Organize it into one of your collections  
+- View prompt  
+- Copy prompt  
+- Clean background  
+- Download  
+- View text accuracy  
+- Create grid  
+- Delete  
+- Add to collection  
+
+</div>
+
+</div>
 
 ---

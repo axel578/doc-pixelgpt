@@ -751,7 +751,7 @@ If you can visualize it clearly from your words, the AI will too.
 
 ## 🎨 Illustration Models
 
-### 🐰 **Cartoon / 2D Art**
+### 🐰 Cartoon / 2D Art
 
 Used for **stylized, expressive, and colorful 2D illustrations** —  
 ideal for fantasy characters, creatures, or storybook-like art.
@@ -814,7 +814,7 @@ a curious wizard mixing glowing potions at a wooden table, surrounded by books a
 
 ---
 
-### 🐦‍🔥 **Logos & Icons**
+### 🐦‍🔥 Logos & Icons
 
 Used for creating **clean, symbolic icons, badges, and emblems**.  
 Logos should be **simple, centered, and high contrast**, focusing on one idea.
@@ -880,7 +880,7 @@ a golden dragon coiled around a sword, circular emblem, glowing red aura, center
 
 ---
 
-### 🖼️ **Thumbnail Models**
+### 🖼️ Thumbnail Models
 
 Used for **YouTube thumbnails** and **cinematic Minecraft scenes**.  
 These prompts should have **drama, energy, and clear focal points**.
@@ -949,7 +949,7 @@ Featuring a white-armored astronaut character with golden goggles resting clearl
 
 ---
 
-### 🎭 **Realistic / Photography Models**
+### 🎭 Realistic / Photography Models
 
 Used for **high-detail renders** of **materials, weapons, or artifacts**.  
 These models simulate realistic textures, lighting, and photography composition.
