@@ -75,7 +75,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 ### Included Features
 - ✅ Unlimited Image Generation  
 - ⚙️ Access to **60% of all models (170+)** (mostly basic ones)  
-- 🔹 2 Concurrent Generations  
 - 🔒 Private Generations  
 
 **Model Access**
@@ -202,7 +201,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 ### Included Features
 - ✅ Unlimited Image Generation  
 - ⚙️ Access to **95% of all models (320+)** *(including top-tier ones)*  
-- 🔹 8 Concurrent Generations  
 - ⚡ Fast Generation Priority  
 - 🧠 Smart & Powerful Models  
 - 🧩 Enhanced Batch Processing  
@@ -290,7 +288,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 ### Included Features
 - ✅ Unlimited Image Generation  
 - ⚙️ Access to **95% of all models (320+)** *(including top-tier ones)*  
-- 🔹 10 Concurrent Generations  
 - ⚡ Fast Generation Priority  
 - 🧠 Smart & Powerful Models  
 - 🧩 Enhanced Batch Processing  
@@ -330,7 +327,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 ### Included Features
 - ✅ Unlimited Image Generation  
 - ⚙️ Access to **95% of all models (345+)**  
-- 🔹 16 Concurrent Generations  
 - ⚡ Very Fast Generation Priority  
 - 🧠 Smart & Powerful Models  
 - 🧩 Enhanced Batch Processing  
@@ -384,7 +380,6 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
 ### Premium Features
 - ✅ Unlimited Image Generation*  
-- ⚙️ 32 Concurrent Generations  
 - 🚀 Highest Generation Priority  
 - 🧠 Access to **100% of all models (350+)**  
 - 🧩 Advanced Batch Processing  
@@ -423,13 +418,25 @@ All plans include **unlimited generations**, **private rendering**, and access t
 
 ## 🧾 Plan Overview
 
-| Plan | Price | Duration | Model Access | Concurrent Gens | Batch | Quality | Speed | Accuracy |
-|------|--------|-----------|---------------|------------------|--------|----------|---------|-----------|
-| **Starter** | $39.99 | Year | 60% (170+) | 2 | 32/img batch | ⭐⭐½ | ⭐⭐⭐ | ⭐⭐½ |
-| **Pro** | $59.99 | Year | 95% (320+) | 8 | 32/img batch | ⭐⭐⭐½ | ⭐⭐⭐⭐ | ⭐⭐⭐½ |
-| **Enthusiast** | $49.99 | 6 mo | 95% (320+) | 10 | 64/img batch | ⭐⭐⭐⭐ | ⭐⭐⭐⭐½ | ⭐⭐⭐½ |
-| **Advanced** | $99.99 | Year | 95% (345+) | 16 | 96/img batch | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐ |
-| **Ultimate** | $199.99 | Year | 100% (350+) | 32 | 256/img batch | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐½ |
+| Features | 🆓 **Free**<br/>$0 / forever | 🧩 **Starter**<br/>$39.99 / year | 💼 **Pro**<br/>$59.99 / year | 🎮 **Enthusiast**<br/>$49.99 / 6 months | ⚙️ **Advanced**<br/>$99.99 / year | 👑 **Ultimate**<br/>$199.99 / year |
+|----------|-----------------------------|----------------------------------|--------------------------------|-------------------------------------------|-------------------------------------|----------------------------------------|
+| **Unlimited Generations** | ❌ Limited (32 lifetime) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Private Generations** | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Model Access** | Baby + Noobie | 60% (170+) | 95% (320+) | 95% (320+) | 95% (345+) | 100% (350+) |
+| **Ultimate Extreme Models** | ❌ | ❌ | 190 | 190 | 200 | 205 |
+| **Elite Models** | ❌ | ❌ | ❌ | ❌ | 20 (32/day) | 20 (256/day) |
+| **Generation Priority** | 🚫 Very Low | 🔹 Low | ⚡ Fast | ⚡ Faster | ⚡⚡ Very Fast | 🚀 Maximum |
+| **Batch Size** | ❌ | 32 / batch | 32 / batch | 64 / batch | 96 / batch | 256 / batch |
+| **Batch Frequency** | ❌ | 1 batch / 2 days | 1 batch / 2 days | 3 batches / 2 days | 3 batches / 2 days | 3 batches / 2 days |
+| **Images per Prompt (Batch)** | ❌ | 2 | 2 | 3 | 3 | 3 |
+| **Advanced Presets**<br/>(GUI, Item Variant, Prompt Edit Item) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| **Early Beta Access** | ❌ | ❌ | 🧪 Yes | 🧪 Yes | 🧪 Yes | 🧪 Yes |
+| **Support Level** | Public basic | Basic | Basic | Medium | Enhanced | Priority |
+| **Visual Quality** | ⭐½☆☆☆ | ⭐⭐½☆☆ | ⭐⭐⭐½☆ | ⭐⭐⭐⭐☆ | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐⭐ |
+| **Speed** | ⭐☆☆☆☆ | ⭐⭐⭐☆☆ | ⭐⭐⭐⭐☆ | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐⭐ |
+| **Prompt Accuracy** | ⭐★☆☆☆ | ⭐⭐½☆☆ | ⭐⭐⭐½☆ | ⭐⭐⭐½☆ | ⭐⭐⭐⭐☆ | ⭐⭐⭐⭐½ |
+
+
 
 ---
 
@@ -486,7 +493,7 @@ You can purchase or renew any PixelGPT plan using the following methods:
 ### 💬 Discord Contact
 If you prefer a manual setup or run into payment issues, you can contact us directly via **Discord**.
 
-> 💡 Contact: [**PixelGPT Support**](https://discord.gg/3kFm8Ab2) on Discord
+> 💡 Contact: [**PixelGPT Support**](https://discord.gg/QBNHmYpBSY) on Discord
 
 This method is available for:
 - Custom or enterprise plans  

@@ -15,6 +15,7 @@ module.exports = {
       label: '🦊 Getting Started',
       items: [
         'getting/what_is_an_image',
+        'getting/basics',
         {
           type: 'category',
           label: 'Prompting',
