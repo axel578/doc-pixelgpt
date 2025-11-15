@@ -38,43 +38,44 @@ An **image** is a **2D grid of colored pixels** — tiny squares that form what 
 
 ## 🌈 Color & Transparency
 
-Each pixel in a Minecraft texture stores color as **RGB** values (Red, Green, Blue).  
-When transparency is included, it becomes **RGBA**, where the **A** stands for **Alpha**.
+Every pixel in a Minecraft texture carries **color data** stored as **RGB** (Red, Green, Blue).  
+When a pixel also contains transparency, the format becomes **RGBA**, where the **A** stands for **Alpha**.
 
-The **alpha channel** controls **how opaque or transparent a pixel is**:
+The **alpha channel** defines **how visible** each pixel is:
 
-- `A = 255` → fully opaque (solid)  
-- `A = 128` → semi-transparent (50% visible)  
-- `A = 0` → fully transparent (invisible)
+| Alpha Value | Meaning | Visibility |
+|--------------|----------|------------|
+| `A = 255` | Fully opaque | Solid, no transparency |
+| `A = 128` | Semi-transparent | 50% visible |
+| `A = 0` | Fully transparent | Invisible pixel |
+
+> 🧩 Each pixel = `(Red, Green, Blue, Alpha)` → four channels that determine color and opacity.
 
 ---
 
 ### 🔹 Why Transparency Matters in Minecraft
 
-Minecraft textures rely on transparency for **items, GUIs, and special effects**:
-
-- **Items:** Swords, tools, and other items use transparent pixels to avoid a square background.  
-- **Armor & GUI elements:** Icons must blend with the world or interface, requiring transparency.  
-- **PixelGPT generation:** Always ensure your generated textures keep the alpha channel, otherwise Minecraft will display a solid white (or default) background.
+Transparency isn’t optional — it’s part of how Minecraft interprets texture layers.  
+Without it, every item or GUI would appear as a **solid square**.
 
 ---
 
-### 🖌 Examples
+### 🖌 Practical Examples
 
-| Type | Example | Alpha / Transparency | How It Appears in Minecraft |
-|------|---------|---------------------|----------------------------|
-| `RGB(255, 0, 0)` | 🔴 Red | None (`A=255`) | Solid red block, no transparency |
-| `RGBA(0, 0, 255, 128)` | 🔵 Blue | 50% transparent | Minecraft shows the blue partially see-through |
-| `RGBA(0, 0, 0, 0)` | — | Fully transparent | Pixel is invisible, background shows through |
+| Type | RGBA Code | Transparency | In-Game Result |
+|------|------------|--------------|----------------|
+| 🔴 Solid Color | `RGB(255, 0, 0)` → `A=255` | Opaque | Solid red — no see-through |
+| 🔵 Semi-Transparent | `RGBA(0, 0, 255, 128)` | 50% | Blue tint blending with background |
+| ⚫ Fully Transparent | `RGBA(0, 0, 0, 0)` | Invisible | Background completely visible |
 
 ---
 
-### 📸 Visualization Example
+### 📸 Visual Comparison
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
   <Image
-    img={require('@site/static/img/alpha_opaque.png')}
-    alt="Opaque pixel example"
+    img={require('@site/static/img/alpha_full.png')}
+    alt="Fully transparent pixel example"
     style={{ maxWidth: '150px', borderRadius: '8px' }}
   />
   <Image
@@ -83,14 +84,12 @@ Minecraft textures rely on transparency for **items, GUIs, and special effects**
     style={{ maxWidth: '150px', borderRadius: '8px' }}
   />
   <Image
-    img={require('@site/static/img/alpha_full.png')}
-    alt="Fully transparent pixel example"
+    img={require('@site/static/img/alpha_opaque.png')}
+    alt="Opaque pixel example"
     style={{ maxWidth: '150px', borderRadius: '8px' }}
   />
 </div>
 
-
-> 🧠 Tip: In Minecraft, **any pixel that should “disappear”** must be fully transparent (`A=0`). PixelGPT can generate transparent textures automatically if you enable the alpha channel.
 ---
 
 ## 💾 File Formats

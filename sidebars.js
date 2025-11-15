@@ -14,9 +14,42 @@ module.exports = {
       type: 'category',
       label: '🦊 Getting Started',
       items: [
-        'getting/index',
-        'getting/what_is_an_image'
-      ],
+        'getting/what_is_an_image',
+        'getting/basics',
+        {
+          type: 'category',
+          label: 'Prompting',
+          items: [
+            'getting/prompting/Prompting_is_key',
+            'getting/prompting/Prompt_troubleshooting'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Grid',
+          items: [
+            'getting/grid/grid_system',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'GUI',
+          items: [
+            'getting/GUI/base_image',
+            {
+              type: 'category',
+              label: 'Plans',
+              items: [
+                'getting/GUI/Plan/Starter',
+                'getting/GUI/Plan/Pro',
+                'getting/GUI/Plan/Ultimate',
+              ],
+            },
+          ],
+        },
+        'getting/pricing',
+        ],
+        
     },
     {
       type: 'category',

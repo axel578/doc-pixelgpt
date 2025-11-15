@@ -1,0 +1,72 @@
+import Image from '@theme/IdealImage';
+
+export const GUIReferenceSettings = ({ 
+  Image1 = "",
+  Image2 = "",
+  alt1 = "",
+  alt2 = "",
+  label1 = "",
+  label2 = "",
+  width1 = 50,
+  width2 = 50,
+}) => (
+  <div
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center', // ✅ Centre verticalement
+      gap: '2rem',
+      flexWrap: 'wrap',
+      maxWidth: '1200px',
+      margin: '2rem auto',
+    }}
+  >
+    {/* Colonne gauche */}
+    <div
+      style={{
+        flex: '1 1 550px',
+        minWidth: `${width1}%`,
+        maxWidth: `${width1}%`,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Image
+        img={Image1}
+        alt={alt1}
+        style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
+      />
+      {label1 && (
+        <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>
+          {label1}
+        </p>
+      )}
+    </div>
+
+    {/* Colonne droite */}
+    <div
+      style={{
+        flex: '1 1 550px',
+        minWidth: `${width2}%`,
+        maxWidth: `${width2}%`,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Image
+        img={Image2}
+        alt={alt2}
+        style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.15)' }}
+      />
+      {label2 && (
+        <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>
+          {label2}
+        </p>
+      )}
+    </div>
+  </div>
+);
