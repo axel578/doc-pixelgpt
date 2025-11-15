@@ -537,6 +537,76 @@ Before finalizing, verify at **200% zoom**:
 
 ---
 
+### 🪐 Orion GUI Models
+
+The **Orion Evolution 2 GUI v2** model represents the *highest level* of PixelGPT’s rendering system.  
+It combines **ultra-fine pixel detailing**, **advanced lighting adaptation**, and **AI-guided color balance** —  
+perfect for creating **next-generation Minecraft GUIs** with professional-grade visual polish.
+
+> 🧠 This model is ideal for users who want:
+> - Maximum clarity and depth in GUI design  
+> - Perfect slot definition without losing theme consistency  
+> - Dynamic lighting and realistic pixel layering  
+
+<div style={{ display: "flex", flexWrap: "wrap", gap: "24px", justifyContent: "center", marginTop: "20px" }}> 
+  <div style={{ flex: "1 1 600px", border: "1px solid #e5e7eb", borderRadius: "12px", padding: "16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", backgroundColor: "white" }}> 
+    <h3 style={{ textAlign: "center", marginTop: "0" }}>🎨 GUI Example</h3>
+
+    | Model | Preview |
+    |:------:|:--------:|
+    | **orion-evolution-2-gui-v2** | ![Preview](/img/orion_evolution_2_gui_v2.png) |
+
+    <p style={{ textAlign: "center", fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
+      Ultra-detailed GUI rendering powered by Orion Evolution 2 — designed for flawless structure and realism.
+    </p>
+  </div>
+</div>
+
+---
+
+#### ⚙️ Recommended Settings
+
+| Setting | Value | Description |
+|----------|--------|-------------|
+| **Image Strength** | `1.5` | Keeps your original layout but allows lighting enhancement |
+| **Shape Strength** | `10` | Full precision for borders, slots, and frame alignment |
+| **Shape Details** | `9` | Maximum fine-texture enhancement |
+| **Shape Gen %** | `8` | Controlled procedural variation |
+| **Overall Style** | `10` | Artistic balance with realistic texture blending |
+| **Blur Mask** | `0` | Keeps pixel edges perfectly sharp |
+
+✅ **Tip:**  
+If your image becomes *too contrasted*, try lowering `Shape Details` to **8** or reducing `Overall Style` slightly.
+
+---
+
+#### 🧪 Example Result
+
+<div style={{ textAlign: 'center', marginTop: '1rem' }}>
+  <Image
+    img={require('@site/static/img/orion_evolution_2_gui_v2_result.png')}
+    alt="Orion Evolution 2 GUI result example"
+    style={{
+      maxWidth: '600px',
+      borderRadius: '12px',
+      boxShadow: '0 4px 14px rgba(0,0,0,0.2)',
+    }}
+  />
+  <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>
+    Final result generated with <strong>Orion Evolution 2 GUI v2</strong> — ultra-crisp and balanced lighting.
+  </p>
+</div>
+
+---
+
+:::tip Orion Tier
+The **Orion Evolution 2 GUI v2** model pushes PixelGPT’s limits —  
+offering **unmatched texture fidelity**, **pixel-perfect precision**, and **dynamic depth rendering** for professional GUI design.
+:::
+
+
+---
+
 ## 🌟 Final Thoughts
 
 The Ultimate Plan's three-step workflow represents **the absolute peak** of what's achievable with PixelGPT. By combining:

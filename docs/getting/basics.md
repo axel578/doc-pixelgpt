@@ -27,52 +27,52 @@ import Image from '@theme/IdealImage';
   marginTop: '14px'
 }}>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**1. Expert tab**  
-Switches to the **Expert** interface.
+  **1. Expert tab**  
+  Switches to the **Expert** interface.
 
-**2. Prompt input zone**  
-Where you type your prompt.
+  **2. Prompt input zone**  
+  Where you type your prompt.
 
-**3. Text accuracy slider**  
-Adjust strictness vs. creativity.
+  **3. Text accuracy slider**  
+  Adjust strictness vs. creativity.
 
-**4. Collection selection**  
-Choose where the image will be saved.
+  **4. Collection selection**  
+  Choose where the image will be saved.
 
-**5. Generate Image button**  
-Starts the generation.
+  **5. Generate Image button**  
+  Starts the generation.
 
-**6. Plan selection**  
-Baby / Standard / Pro / Ultimate / Elite / Orion
+  **6. Plan selection**  
+  Baby / Standard / Pro / Ultimate / Elite / Orion
 
-</div>
+  </div>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**7. Model type selection**  
-Pixel Art, Illustration, Realistic, Thumbnail, GUI, 3D Render.
+  **7. Model type selection**  
+  Pixel Art, Illustration, Realistic, Thumbnail, GUI, 3D Render.
 
-**8. Model sub-types**  
-Filtered variations.
+  **8. Model sub-types**  
+  Filtered variations.
 
-**9. Model list**  
-All available models.
+  **9. Model list**  
+  All available models.
 
-**10. Model version**  
-Pick v1 / v2 / v3...
+  **10. Model version**  
+  Pick v1 / v2 / v3...
 
-**11. Model name**  
-Shows full model name.
+  **11. Model name**  
+  Shows full model name.
 
-**12. Select this AI Model**  
-Confirms model choice.
+  **12. Select this AI Model**  
+  Confirms model choice.
 
-**13. Favorite toggle**  
-Marks a model as favorite.
+  **13. Favorite toggle**  
+  Marks a model as favorite.
 
-</div>
+  </div>
 
 </div>
 
@@ -97,22 +97,22 @@ Marks a model as favorite.
   marginTop: '14px'
 }}>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**1. “Account” → “My Pictures” button**  
-Opens your gallery.
+  **1. “Account” → “My Pictures” button**  
+  Opens your gallery.
 
-**2. Generation in progress**  
-Displays the progress bar.
+  **2. Generation in progress**  
+  Displays the progress bar.
 
-</div>
+  </div>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**3. Image preview**  
-Shows your recent generated images.
+  **3. Image preview**  
+  Shows your recent generated images.
 
-</div>
+  </div>
 
 </div>
 
@@ -137,41 +137,41 @@ Shows your recent generated images.
   marginTop: '14px'
 }}>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**1. Search bar**  
-Search by prompt keywords.
+  **1. Search bar**  
+  Search by prompt keywords.
 
-**2. Filter / Favorites / Collection selector**  
-Filter your images.
+  **2. Filter / Favorites / Collection selector**  
+  Filter your images.
 
-**3. Apply**  
-Applies the filters.
+  **3. Apply**  
+  Applies the filters.
 
-**4. Image preview**  
-Shows the generated image.
+  **4. Image preview**  
+  Shows the generated image.
 
-</div>
+  </div>
 
-<div style={{ flex: '1 1 360px' }}>
+  <div style={{ flex: '1 1 360px' }}>
 
-**5. Prompt preview**  
-Short preview of the original prompt.
+  **5. Prompt preview**  
+  Short preview of the original prompt.
 
-**6. Model used**  
-Model that generated the image.
+  **6. Model used**  
+  Model that generated the image.
 
-**7. Action buttons**  
-- View prompt  
-- Copy prompt  
-- Clean background  
-- Download  
-- View text accuracy  
-- Create grid  
-- Delete  
-- Add to collection  
+  **7. Action buttons**  
+  - View prompt  
+  - Copy prompt  
+  - Clean background  
+  - Download  
+  - View text accuracy  
+  - Create grid  
+  - Delete  
+  - Add to collection  
 
-</div>
+  </div>
 
 </div>
 
