@@ -554,7 +554,7 @@ perfect for creating **next-generation Minecraft GUIs** with professional-grade 
 
     | Model | Preview |
     |:------:|:--------:|
-    | **orion-evolution-2-gui-v2** | ![Preview](/img/orion_evolution_2_gui_v2.png) |
+    | **orion-evolution-2-gui-v2** | ![Preview](/img/Blacked.png) |
 
     <p style={{ textAlign: "center", fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
       Ultra-detailed GUI rendering powered by Orion Evolution 2 — designed for flawless structure and realism.

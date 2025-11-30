@@ -1,56 +1,25 @@
 module.exports = {
   docs: [
-    {
-      type: 'doc',
-      id: 'quick-start/index',
-      label: '⚡ Quick Start',
-    },
-    {
-      type: 'doc',
-      id: 'start/index',
-      label: '🧸 Start',
-    },
+    // Quick Start Section
     {
       type: 'category',
-      label: '🦊 Getting Started',
+      label: '⚡ Quick Start',
+      collapsed: false,
       items: [
-        'getting/what_is_an_image',
-        'getting/basics',
-        {
-          type: 'category',
-          label: 'Prompting',
-          items: [
-            'getting/prompting/Prompting_is_key',
-            'getting/prompting/Prompt_troubleshooting'
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Grid',
-          items: [
-            'getting/grid/grid_system',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'GUI',
-          items: [
-            'getting/GUI/base_image',
-            {
-              type: 'category',
-              label: 'Plans',
-              items: [
-                'getting/GUI/Plan/Starter',
-                'getting/GUI/Plan/Pro',
-                'getting/GUI/Plan/Ultimate',
-              ],
-            },
-          ],
-        },
-        'getting/pricing',
-        ],
-        
+        'quick-start/index',
+        'quick-start/cinq-minute-guide',
+        'quick-start/generate-first-item',
+        'quick-start/generate-first-gui',
+        'quick-start/essential-prompting-tips',
+        'quick-start/which-model-to-use',
+        'quick-start/remove-background-quick',
+        'quick-start/extract-items-quick',
+        'quick-start/common-mistakes',
+        'quick-start/troubleshooting-quick',
+      ],
     },
+
+    // Getting Started - Main Documentation
     {
       type: 'category',
       label: '📖 Getting Started',
@@ -63,6 +32,81 @@ module.exports = {
         'getting-started/your-first-generation',
         'getting-started/understanding-the-interface',
         'getting-started/next-steps',
+      ],
+    },
+
+    // Beginner's Guide Section
+    {
+      type: 'category',
+      label: '🎮 Beginner Guide',
+      items: [
+        {
+          type: 'doc',
+          id: 'getting/index',
+          label: '🏁 Start Here',
+        },
+        {
+          type: 'doc',
+          id: 'getting/what_is_an_image',
+          label: '🖼️ What is an Image?',
+        },
+        {
+          type: 'doc',
+          id: 'getting/basics',
+          label: '📐 PixelGPT — Interface Overview',
+        },
+        {
+          type: 'category',
+          label: '✍️ Writing Prompts',
+          items: [
+            'getting/prompting/Prompting_is_key',
+            'getting/prompting/Prompt_troubleshooting'
+          ],
+        },
+        {
+          type: 'category',
+          label: '🎨 Grid Editor',
+          items: [
+            'getting/grid/grid_system',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🖥️ Creating GUI Textures',
+          items: [
+            {
+              type: 'doc',
+              id: 'getting/GUI/base_image',
+              label: '🍂 Creating the Base GUI Image',
+            },
+            {
+              type: 'category',
+              label: '🎯 Best GUI Workflows by Plan',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'getting/GUI/Plan/Starter',
+                  label: '🌱 Starter Plan – Quick Enhancement',
+                },
+                {
+                  type: 'doc',
+                  id: 'getting/GUI/Plan/Pro',
+                  label: '💎 Pro / Enthusiast – Professional Quality',
+                },
+                {
+                  type: 'doc',
+                  id: 'getting/GUI/Plan/Ultimate',
+                  label: '👑 Ultimate Plan – Maximum Fidelity',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'doc',
+          id: 'getting/pricing',
+          label: '💰 PixelGPT — Pricing',
+        },
       ],
     },
     {
